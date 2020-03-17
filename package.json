@@ -1,0 +1,38 @@
+{
+  "name": "hack-club",
+  "version": "1.0.0",
+  "description": "Hack Club Site",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "live-server",
+    "write:sass": "node-sass sass/main.scss css/style.css ",
+    "watch:sass": "nodemon -e scss -x \"npm run write:sass\"",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "compress:css": "node-sass css/style.comp.css css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass compress:css"
+  },
+  "author": "Hack Club",
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "concat": "^1.0.3",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.0"
+  }
+}
