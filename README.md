@@ -1,6 +1,6 @@
 # <img src="https://cdn.jsdelivr.net/gh/hackclub/meta@fc4c0d220426eb53a176e656ae7700d9dcd0b2c5/logos/hack_club_red_text.svg" width="450">
 
-# Official HackClub Nmit Website
+# Official Hack Club NMIT Website
 
 **npm**
 
