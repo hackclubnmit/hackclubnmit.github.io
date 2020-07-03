@@ -10,7 +10,8 @@ We think learning to code is uniquely like gaining a superpower: it converts you
 
 ## History
 
-Hack Club was founded by [Zach Latta](https://zachlatta.com) who dropped out of high school because the school system wasn’t working. We’re an entirely open source organization—[our website](https://github.com/hackclub/v3) to even [our finances](https://bank.hackclub.com/hq) are public. It’s backed by everyone from [Elon Musk](https://hackclub.com/elon/) to GitHub co-founder Tom Preston-Werner. With the help of Hack Club HQ team, our club founder [Anurag Singh](https://anuragsingh.dev) and co-founder [Rachet Mudnur](https://github.com/rachetm) started [**Hack Club NMIT**](https://hackbout.tech) in the year 2019 at Nitte Meenakshi Institute of Technology, Bangalore, India. Since then we are trying to give our best to the Hack Clubbers community.
+Hack Club was founded by [Zach Latta](https://zachlatta.com) who dropped out of high school because the school system wasn’t working. We’re an entirely open source organization—[our website](https://github.com/hackclub/v3) to even [our finances](https://bank.hackclub.com/hq) are public. It’s backed by everyone from [Elon Musk](https://hackclub.com/elon/) to GitHub co-founder Tom Preston-Werner. 
+With the help of Hack Club HQ team, our club founder [Anurag Singh](https://anuragsingh.dev) and co-founder [Rachet Mudnur](https://github.com/rachetm) started [**Hack Club NMIT**](https://hackbout.tech) in the year 2019 at Nitte Meenakshi Institute of Technology, Bangalore, India. Since then we are trying to give our best to the Hack Clubbers community.
 
 ## Quick Hack Club NMIT links
 
