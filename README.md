@@ -31,12 +31,12 @@ Hack Club was founded by [Zach Latta](https://zachlatta.com) who dropped out of 
 
 Installing Dependencies
 
-$ npm install
+    $ npm install
 
 starting development
 
-$ npm start
+    $ npm start
 
 building Final CSS Files
 
-$ npm run build:css
+    $ npm run build:css
