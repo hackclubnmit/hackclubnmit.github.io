@@ -6,7 +6,7 @@
 
 We think learning to code is uniquely like gaining a superpower: it converts you from a _consumer_ to a _creator_, turning your computer into a tool for creation. If you’re reading this, you can learn to build an app—there’s never been a better time for making.
 
-**The goal of Hack Club is to help you become a hacker.** We want an inclusive space on the internet & at every school where people are making interesting things with code, every week. In our [Discord Server](https://discord.gg/gpkg9zW) , you can ask coding questions, you’ll meet amazing friends, share projects you’re building, and so much more. Most members start out with little to no coding experience, build projects of their own and attend & later organize amazing in-house hackathons like [HackBout](https://hackbout.tech).
+**The goal of Hack Club is to help you become a hacker.** We want an inclusive space on the internet & at every school where people are making interesting things with code, every week. In our [Discord Server](https://discord.gg/gpkg9zW) , you can ask coding questions, you’ll meet amazing friends, share projects you’re building, and so much more. Most members start out with little to no coding experience, build projects of their own and attend & later organize amazing in-house hackathons like [HackBout](https://hackbout.tech).
 
 ## History
 
@@ -14,16 +14,15 @@ Hack Club was founded by [Zach Latta](https://zachlatta.com) who dropped out of 
 
 ## Quick Hack Club NMIT links
 
-| Action                          | Link                                 |
-| ------------------------------- | ------------------------------------ |
-| Join our Discord                | <https://discord.gg/gpkg9zW>         |
-| See our workshops               | <https://github.com/HackClub-NMIT/workshops>    |
-| Subscribe our Youtube channel   | <https://www.youtube.com/channel/UCMcJ0_61s_G1UvPbVPs2edw> |
-| Read our code of conduct        | <https://hackclub.com/conduct/>      |
-| Use Hack Club logos & banners   | <https://hackclub.com/brand/>        |
-| Follow us on Instagram          | <https://instagram.com/hackclubnmit> |
-| Follow us on Twitter            | <https://twitter.com/hackclubnmit>   |
-
+| Action                        | Link                                                       |
+| ----------------------------- | ---------------------------------------------------------- |
+| Join our Discord              | <https://discord.gg/gpkg9zW>                               |
+| See our workshops             | <https://github.com/HackClub-NMIT/workshops>               |
+| Subscribe our Youtube channel | <https://www.youtube.com/channel/UCMcJ0_61s_G1UvPbVPs2edw> |
+| Read our code of conduct      | <https://hackclub.com/conduct/>                            |
+| Use Hack Club logos & banners | <https://hackclub.com/brand/>                              |
+| Follow us on Instagram        | <https://instagram.com/hackclubnmit>                       |
+| Follow us on Twitter          | <https://twitter.com/hackclubnmit>                         |
 
 ## Official Hack Club NMIT Website
 
@@ -35,8 +34,8 @@ Installing Dependencies
 
 starting development
 
-    $ npm start
+    $ npm run dev
 
-building Final CSS Files
+building Files
 
-    $ npm run build:css
+    $ npm run build
