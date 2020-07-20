@@ -5,8 +5,10 @@ const Parallax = (props) => {
 
 	useEffect(() => {
 		window.addEventListener('scroll', onParallax);
-		console.log('Scrolling');
+		onParallax(); // will set position initially
 	}, []);
+
+	// for top level -->  windowScrollTop > parallaxDivOffsetTop
 
 	const onParallax = () => {
 		const { parallaxSpeed } = props;
@@ -16,11 +18,11 @@ const Parallax = (props) => {
 		let parallaxDivHeight = parallaxDiv.current.offsetHeight;
 		let parallaxDivLimit = parallaxDivOffsetTop + parallaxDivHeight;
 
+		console.log(parallaxDivOffsetTop, parallaxDivHeight, parallaxDivLimit);
+
 		if (windowScrollTop <= parallaxDivLimit) {
 			parallaxDiv.current.style.backgroundPosition =
 				'50% ' + (windowScrollTop - parallaxDivOffsetTop) / speed + 'px';
-		} else {
-			parallaxDiv.current.style.backgroundPositionY = '50% 0';
 		}
 	};
 
@@ -30,9 +32,10 @@ const Parallax = (props) => {
 		backgroundImage: `url(${imageUrl})`,
 		backgroundRepeat: 'no-repeat',
 		backgroundSize: 'cover',
-		backgroundPosition: 'top',
 		transition: 'background-position 0s linear',
+		height: '800px',
 	};
+
 	return (
 		<Fragment>
 			<div style={styles} ref={parallaxDiv}>
