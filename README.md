@@ -23,6 +23,7 @@ Hack Club was founded by [Zach Latta](https://zachlatta.com) who dropped out of 
 | Use Hack Club logos & banners | <https://hackclub.com/brand/>                              |
 | Follow us on Instagram        | <https://instagram.com/hackclubnmit>                       |
 | Follow us on Twitter          | <https://twitter.com/hackclubnmit>                         |
+| Follow us on LinkedIn         | <https://www.linkedin.com/company/hackclubnmit>            |
 
 ## Official Hack Club NMIT Website
 
