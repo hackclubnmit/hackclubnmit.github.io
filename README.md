@@ -1,6 +1,6 @@
 # <img src="https://cdn.jsdelivr.net/gh/hackclub/meta@fc4c0d220426eb53a176e656ae7700d9dcd0b2c5/logos/hack_club_red_text.svg" width="450">
 
-[**Hack Club**](https://hackclub.com/) is a global, nonprofit network of high school makers & student-led coding clubs. And, the [**Hack Club NMIT**](https://hackbout.tech) is its official student chapter. We condcut regular [Workshops](https://github.com/HackClub-NMIT/workshops), which are self-led learn-to-code tutorials, you can find our [Code of Conduct](https://hackclub.com/conduct/) here.
+[**Hack Club**](https://hackclub.com/) is a global, nonprofit network of high school makers & student-led coding clubs. And, the [**Hack Club NMIT**](https://hackbout.tech) is its official student chapter. We condcut regular [Workshops](https://github.com/HackClub-NMIT/workshops), which are self-led learn-to-code tutorials, you can find our [Code of Conduct](https://hackclub.com/conduct/) here. In a nutshell, we are the movement of students building the classes we wish we could take!
 
 ## Philosophy
 
