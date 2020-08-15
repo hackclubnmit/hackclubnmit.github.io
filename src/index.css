@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.l-box {
+  margin: 0.5rem;
+  border: rgba(85, 85, 85, 0.39) 1px solid;
+  height: 200px;
+  border-radius: 5px;
+  /* box-shadow: 1px 2px 2px rgb(88, 76, 76); */
+}
