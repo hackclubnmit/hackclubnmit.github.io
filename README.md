@@ -35,7 +35,7 @@ Installing Dependencies
 
 starting development
 
-    $ npm run dev
+    $ npm start
 
 building Files
 
