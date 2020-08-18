@@ -1,13 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,700;0,900;1,400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;1,400&display=swap');
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Alegreya SC', serif; */
+  font-family: 'Josefin Slab', serif;
 }
 
-.l-box {
-  margin: 0.5rem;
-  border: rgba(85, 85, 85, 0.39) 1px solid;
-  height: 200px;
-  border-radius: 5px;
-  /* box-shadow: 1px 2px 2px rgb(88, 76, 76); */
+html {
+  box-sizing: border-box;
+}
+
+.section__margin {
+  margin: 20px 50px;
+}
+
+.section__heading {
+  font-size: 50px;
+  font-weight: 100;
 }
