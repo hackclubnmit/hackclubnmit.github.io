@@ -1,0 +1,56 @@
+.events_section {
+  margin: 20px 0;
+}
+
+.event_section-heading {
+  margin: 10px 100px;
+  font-size: 52px;
+  font-weight: 100;
+}
+
+.events__container {
+  display: flex;
+  transform-style: preserve-3d;
+}
+
+.eventContent__container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.eventContent__container--date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.eventContent__date {
+  font-size: 72px;
+  font-weight: 100;
+}
+.eventContent__month {
+  font-size: 24px;
+  margin-top: -10px;
+}
+.eventContent__title {
+  margin-top: 10px;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.eventContent__container--details {
+  margin-top: 20px;
+}
+
+.eventContent__host {
+  font-size: 20px;
+  font-weight: bold;
+}
+.eventContent__time {
+  margin-top: 5px;
+  font-size: 16px;
+}

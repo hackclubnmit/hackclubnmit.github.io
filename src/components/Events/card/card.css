@@ -1,0 +1,48 @@
+.card {
+  width: 300px;
+  height: 300px;
+  background: white;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 30px;
+  background-color: #ffdee9;
+  background-image: -webkit-linear-gradient(315deg, #ffdee9 0%, #b5fffc 100%);
+  background-image: -moz-linear-gradient(315deg, #ffdee9 0%, #b5fffc 100%);
+  background-image: -o-linear-gradient(315deg, #ffdee9 0%, #b5fffc 100%);
+  background-image: linear-gradient(315deg, #ffdee9 0%, #b5fffc 100%);
+
+  box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
+}
+
+.card:hover {
+  box-shadow: 15px 15px 30px #d9d9d9, -15px -15px 30px #ffffff;
+}
+
+.card:nth-of-type(1) {
+  margin-left: 250px;
+}
+
+/*
+.card:nth-of-type(2) {
+  position: sticky;
+  position: -webkit-sticky;
+  left: 90px;
+}
+.card:nth-of-type(3) {
+  position: sticky;
+  position: -webkit-sticky;
+  left: 120px;
+}
+.card:nth-of-type(4) {
+  position: sticky;
+  position: -webkit-sticky;
+  left: 150px;
+}
+.card:nth-of-type(5) {
+  position: sticky;
+  position: -webkit-sticky;
+  left: 180px;
+} */
+
+/* .card:hover {
+} */
