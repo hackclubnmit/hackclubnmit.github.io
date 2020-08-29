@@ -1,6 +1,6 @@
 # <img src="https://cdn.jsdelivr.net/gh/hackclub/meta@fc4c0d220426eb53a176e656ae7700d9dcd0b2c5/logos/hack_club_red_text.svg" width="450">
 
-[**Hack Club**](https://hackclub.com/) is a global, nonprofit network of high school makers & student-led coding clubs. And, the [**Hack Club NMIT**](https://hackbout.tech) is its official student chapter. We condcut regular [Workshops](https://github.com/HackClub-NMIT/workshops), which are self-led learn-to-code tutorials, you can find our [Code of Conduct](https://hackclub.com/conduct/) here. In a nutshell, we are the movement of students building the classes we wish we could take!
+[**Hack Club**](https://hackclub.com/) is a global, nonprofit network of high school makers & student-led coding clubs. And, the [**Hack Club NMIT**](https://hackbout.tech) is its official student chapter. We condcut regular [Workshops](https://github.com/hackclubnmit/workshops), which are self-led learn-to-code tutorials, you can find our [Code of Conduct](https://hackclub.com/conduct/) here. In a nutshell, we are the movement of students building the classes we wish we could take!
 
 ## Philosophy
 
@@ -17,7 +17,7 @@ Hack Club was founded by [Zach Latta](https://zachlatta.com) who dropped out of 
 | Action                        | Link                                                       |
 | ----------------------------- | ---------------------------------------------------------- |
 | Join our Discord              | <https://discord.gg/gpkg9zW>                               |
-| See our workshops             | <https://github.com/HackClub-NMIT/workshops>               |
+| See our workshops             | <https://github.com/hackclubnmit/workshops>               |
 | Subscribe our Youtube channel | <https://www.youtube.com/channel/UCMcJ0_61s_G1UvPbVPs2edw> |
 | Read our code of conduct      | <https://hackclub.com/conduct/>                            |
 | Use Hack Club logos & banners | <https://hackclub.com/brand/>                              |
