@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 15%;
+  padding: 20px;
+  margin-left: 13%;
+}
+
+.column img {
+  filter: grayscale(100%);
+}
+
+
+.column img:hover {
+  filter: grayscale(0%);
+}
+
+.column1{
+
+  float: left;
+  width: 15%;
+  padding: 20px;
+  margin-left: 22.5%;
+
+}
+.column1 img {
+  filter: grayscale(100%);
+}
+
+.column1 img:hover {
+  filter: grayscale(0%);
+}
+
+
+.container {
+  width: 80%;
+  margin: auto;
+
+}
