@@ -11,21 +11,19 @@ const Sponsors() =>{
      <div className="container">
         <div className="row">
             <div className="column">
-                <img src="https://avatars1.githubusercontent.com/u/57502607?s=200&v=4" alt="Snow" style="width:100%">
+                <img src="https://avatars1.githubusercontent.com/u/57502607?s=200&v=4" alt="Snow" style="width:100%" />
             </div>
             <div className="column">
-                <img src="https://avatars1.githubusercontent.com/u/57502607?s=200&v=4" alt="Mountains"
-                    style="width:100%">
+                <img src="https://avatars1.githubusercontent.com/u/57502607?s=200&v=4" alt="Mountains" style="width:100%" />
             </div>
             <div className="column">
-                <img src="https://avatars1.githubusercontent.com/u/57502607?s=200&v=4" alt="Mountains"
-                    style="width:100%">
+                <img src="https://avatars1.githubusercontent.com/u/57502607?s=200&v=4" alt="Mountains" style="width:100%" />
             </div>
             <div className="column3">
-                <img src="https://avatars1.githubusercontent.com/u/57502607?s=200&v=4" alt="Mountains" style="width:100%">
+                <img src="https://avatars1.githubusercontent.com/u/57502607?s=200&v=4" alt="Mountains" style="width:100%" />
             </div>
             <div className="column3">
-                <img src="https://avatars1.githubusercontent.com/u/57502607?s=200&v=4" alt="Mountains" style="width:100%">
+                <img src="https://avatars1.githubusercontent.com/u/57502607?s=200&v=4" alt="Mountains" style="width:100%" />
             </div>
 
         </div>
