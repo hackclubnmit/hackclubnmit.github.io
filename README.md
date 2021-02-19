@@ -1,43 +1,70 @@
-# <img src="https://cdn.jsdelivr.net/gh/hackclub/meta@fc4c0d220426eb53a176e656ae7700d9dcd0b2c5/logos/hack_club_red_text.svg" width="450">
+# Getting Started with Create React App
 
-[**Hack Club**](https://hackclub.com/) is a global, nonprofit network of high school makers & student-led coding clubs. And, the [**Hack Club NMIT**](https://hackbout.tech) is its official student chapter. We condcut regular [Workshops](https://github.com/hackclubnmit/workshops), which are self-led learn-to-code tutorials, you can find our [Code of Conduct](https://hackclub.com/conduct/) here. In a nutshell, we are the movement of students building the classes we wish we could take!
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Philosophy
+## Available Scripts
 
-We think learning to code is uniquely like gaining a superpower: it converts you from a _consumer_ to a _creator_, turning your computer into a tool for creation. If you’re reading this, you can learn to build an app—there’s never been a better time for making.
+In the project directory, you can run:
 
-**The goal of Hack Club is to help you become a hacker.** We want an inclusive space on the internet & at every school where people are making interesting things with code, every week. In our [Discord Server](https://discord.gg/gpkg9zW) , you can ask coding questions, you’ll meet amazing friends, share projects you’re building, and so much more. Most members start out with little to no coding experience, build projects of their own and attend & later organize amazing in-house hackathons like [HackBout](https://hackbout.tech).
+### `yarn start`
 
-## History
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Hack Club was founded by [Zach Latta](https://zachlatta.com) who dropped out of high school because the school system wasn’t working. We’re an entirely open source organization—[our website](https://github.com/hackclub/v3) to even [our finances](https://bank.hackclub.com/hq) are public. It’s backed by everyone from [Elon Musk](https://hackclub.com/elon/) to GitHub co-founder Tom Preston-Werner. With the help of Hack Club HQ team, our club founder [Anurag Singh](https://anuragsingh.dev) and co-founder [Rachet Mudnur](https://github.com/rachetm) started [**Hack Club NMIT**](https://hackbout.tech) along with a strong team of 10 core members in the year 2019 at [Nitte Meenakshi Institute of Technology](https://nmit.ac.in), Bangalore, India. Since then we are trying to give our best to the Hack Clubbers community.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Quick Hack Club NMIT links
+### `yarn test`
 
-| Action                        | Link                                                       |
-| ----------------------------- | ---------------------------------------------------------- |
-| Join our Discord              | <https://discord.gg/gpkg9zW>                               |
-| See our workshops             | <https://github.com/hackclubnmit/workshops>               |
-| Subscribe our Youtube channel | <https://www.youtube.com/channel/UCMcJ0_61s_G1UvPbVPs2edw> |
-| Read our code of conduct      | <https://hackclub.com/conduct/>                            |
-| Use Hack Club logos & banners | <https://hackclub.com/brand/>                              |
-| Follow us on Instagram        | <https://instagram.com/hackclubnmit>                       |
-| Follow us on Twitter          | <https://twitter.com/hackclubnmit>                         |
-| Follow us on LinkedIn         | <https://www.linkedin.com/company/hackclubnmit>            |
-| Follow us on Facebook         | <https://facebook.com/hackclubnmit>                        |
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Official Hack Club NMIT Website
+### `yarn build`
 
-**npm**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Installing Dependencies
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-    $ npm install
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-starting development
+### `yarn eject`
 
-    $ npm start
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-building Files
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-    $ npm run build
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
