@@ -50,7 +50,7 @@ const Join = ({ showModal, setShowModal }) => {
                         <a href='https://discord.gg/gpkg9zW'>
                             <button>Discord</button>
                         </a>
-                        <a href='t.me/hackclubnmit'>
+                        <a href='https://t.me/hackclubnmit'>
                             <button>Telegram</button>
                         </a>
                         <a href='https://docs.google.com/forms/d/e/1FAIpQLSf9kMwgpCGHMu8NqnQnfoFSOLjIi4V88iBYyocbpFkF2GyMJQ/viewform'>
