@@ -47,10 +47,10 @@ const Join = ({ showModal, setShowModal }) => {
                             <div className="cline-2"></div>
                         </motion.div>
                         <p>Click the Links below to join</p>
-                        <a href='/'>
+                        <a href='https://discord.gg/gpkg9zW'>
                             <button>Discord</button>
                         </a>
-                        <a href='/'>
+                        <a href='t.me/hackclubnmit'>
                             <button>Telegram</button>
                         </a>
                         <a href='https://docs.google.com/forms/d/e/1FAIpQLSf9kMwgpCGHMu8NqnQnfoFSOLjIi4V88iBYyocbpFkF2GyMJQ/viewform'>
