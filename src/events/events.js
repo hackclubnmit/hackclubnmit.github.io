@@ -1,6 +1,6 @@
 
 import {motion} from 'framer-motion';
-import ImageTemp from "../assets/sample.jpg";
+import ImageTemp from "./TempEvent.jpg";
 
 
 const events = ['Getting Started with Blockchain','TypeScript : Get Started','React Three Fiber (Threejs)','Three.js+Blender','Discord Chatbot','A dive into Blender\'s Basic','How to setup the Best Portfolio!','Linux Administraion','Blockchain and Hackathon 101']
@@ -47,31 +47,75 @@ const childVariants = {
     // }
   }
 
+// const Events = ({setMouseOver}) => {
+
+//     return ( 
+//         <motion.div className='events' variants={containerVariants} initial='hidden' animate='visible' exit='exit'>
+//             <ul>
+//                 {specialEvents.map((item)=> 
+//                 <li key={specialEvents.indexOf(item).toString()} className='e-list'>
+//                     <motion.a href={slinks[specialEvents.indexOf(item).toString()]} className='e-items'
+//                         variants={childVariants} initial='hidden' animate='visible' whileHover='hover'
+//                         onMouseOver={() => setMouseOver(true)} onMouseLeave = { () => setMouseOver(false)}
+//                     >
+//                       {item}
+//                     </motion.a>
+//                 </li>)}
+//                 <div className="break"></div>
+//                 {events.map((item)=> 
+//                 <li key={events.indexOf(item).toString()} className='e-list'>
+//                     <motion.a href={links[events.indexOf(item).toString()]} className='e-items'
+//                         variants={childVariants} initial='hidden' animate='visible' whileHover='hover'
+//                         onMouseOver={() => setMouseOver(true)} onMouseLeave = { () => setMouseOver(false)}
+//                     >{item}</motion.a>
+//                 </li>)}
+//             </ul>
+//         </motion.div>
+//      );
+// }
 const Events = ({setMouseOver}) => {
 
-    return ( 
-        <motion.div className='events' variants={containerVariants} initial='hidden' animate='visible' exit='exit'>
-            <ul>
-                {specialEvents.map((item)=> 
-                <li key={specialEvents.indexOf(item).toString()} className='e-list'>
-                    <motion.a href={slinks[specialEvents.indexOf(item).toString()]} className='e-items'
-                        variants={childVariants} initial='hidden' animate='visible' whileHover='hover'
-                        onMouseOver={() => setMouseOver(true)} onMouseLeave = { () => setMouseOver(false)}
-                    >
-                      {item}
-                    </motion.a>
-                </li>)}
-                <div className="break"></div>
-                {events.map((item)=> 
-                <li key={events.indexOf(item).toString()} className='e-list'>
-                    <motion.a href={links[events.indexOf(item).toString()]} className='e-items'
-                        variants={childVariants} initial='hidden' animate='visible' whileHover='hover'
-                        onMouseOver={() => setMouseOver(true)} onMouseLeave = { () => setMouseOver(false)}
-                    >{item}</motion.a>
-                </li>)}
-            </ul>
-        </motion.div>
-     );
+  return ( 
+      <motion.div className='events' variants={containerVariants} initial='hidden' animate='visible' exit='exit'>
+          <ul>
+              <li className="eocards">
+                <div className="eicards">
+                  <img src={ImageTemp} alt="Event Banner"/>
+                  <h1>Workshop Title</h1>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia, voluptate officiis incidunt nihil aliquid alias quibusdam nisi dolores itaque magnam.</p>
+                </div>
+              </li>
+              <li className="eocards">
+                <div className="eicards">
+                  <img src={ImageTemp} alt="Event Banner"/>
+                  <h1>Workshop Title</h1>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia, voluptate officiis incidunt nihil aliquid alias quibusdam nisi dolores itaque magnam.</p>
+                </div>
+              </li>
+              <li className="eocards">
+                <div className="eicards">
+                  <img src={ImageTemp} alt="Event Banner"/>
+                  <h1>Workshop Title</h1>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia, voluptate officiis incidunt nihil aliquid alias quibusdam nisi dolores itaque magnam.</p>
+                </div>
+              </li>
+              <li className="eocards">
+                <div className="eicards">
+                  <img src={ImageTemp} alt="Event Banner"/>
+                  <h1>Workshop Title</h1>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia, voluptate officiis incidunt nihil aliquid alias quibusdam nisi dolores itaque magnam.</p>
+                </div>
+              </li>
+              <li className="eocards">
+                <div className="eicards">
+                  <img src={ImageTemp} alt="Event Banner"/>
+                  <h1>Workshop Title</h1>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia, voluptate officiis incidunt nihil aliquid alias quibusdam nisi dolores itaque magnam.</p>
+                </div>
+              </li>
+          </ul>
+      </motion.div>
+   );
 }
  
 export default Events;
