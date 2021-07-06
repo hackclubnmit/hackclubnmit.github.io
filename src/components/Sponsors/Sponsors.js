@@ -4,7 +4,7 @@ import LandingComponentSvg from '../svg/landingSvg';
 import styles from './Sponsors.module.css';
 
 
-const Sponsors() =>{
+const Sponsors=() =>{
 
   return( 
     
