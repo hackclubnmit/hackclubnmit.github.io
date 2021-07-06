@@ -1,4 +1,4 @@
-.landing{
+.landing{ 
     height: 100vh;
     position: relative;
     background-color: rgb(255, 255, 255);
@@ -9,6 +9,7 @@
     justify-content: space-between;
     float: left;
    z-index: 5;
+   
    
     
 }
@@ -25,11 +26,11 @@
 }
 .landing__heading{
     font-size: 50px;
-    color: rgb(218, 100, 74);
+    color: black;
 }
 
 .landing__sub-heading{
-    font-size: 30px;
+    color :black;
 }
 
 .landing-logo {
@@ -38,3 +39,5 @@
     top: 15%;
     right: 10%;
 }
+
+

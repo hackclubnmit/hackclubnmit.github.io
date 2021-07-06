@@ -6,7 +6,6 @@ const App = () => {
     <Fragment>
       <main>
         <Home />
-        
       </main>
     </Fragment>
   );
