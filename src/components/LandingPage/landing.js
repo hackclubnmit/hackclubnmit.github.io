@@ -1,8 +1,7 @@
 import  React from 'react';
 
-//import LandingComponentSvg from '../svg/landingSvg';
+// import LandingComponentSvg from '../svg/landingSvg';
 import  './landing.css';
-import clublogo from '../../assets/logo/pikachu.jpg'
 const Landing = () => {
   return (
     <article className="landing">
@@ -17,11 +16,11 @@ const Landing = () => {
          </div>
          <div className="landing__sub-2">
          <div className="landing__sub-2">
-         <img src={clublogo} alt="club-logo" className="landing-logo" />
-       {/* <LandingComponentSvg />*/}
+         <img src="https://avatars1.githubusercontent.com/u/57502607?s=200&v=4" alt="Snow" className="landing-logo" />
+      
          </div>
          </div>
-          
+        
     </article>
      
     </article>

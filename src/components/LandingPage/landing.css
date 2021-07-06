@@ -1,7 +1,7 @@
 .landing{
     height: 100vh;
     position: relative;
-    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(255, 255, 255);*/
 }
 .landing__container {
     display:flex;
@@ -24,6 +24,8 @@
    /* border: 3px solid black;*/
 }
 .landing__heading{
+    display: flex;
+    flex-direction: column;
     font-size: 50px;
     color: rgb(218, 100, 74);
 }
@@ -33,8 +35,9 @@
 }
 
 .landing-logo {
-    height: 350px;
-    position: absolute;
+    height: 250px;
+    position: relative;
     top: 15%;
     right: 10%;
+    float: right;
 }
