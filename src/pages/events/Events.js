@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Event from '../../components/Event/Event'
 const Events = () => {
   return (

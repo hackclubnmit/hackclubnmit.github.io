@@ -9,13 +9,13 @@ const Home = () => {
     <p className="logo"> Hack club NMIT</p>
         <ul>
           
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">EVENTS</a></li>
-            <li><a href="#">GALLERY</a></li>
-            <li><a href="#">CONTACT US</a></li>
-            <li><a href="#">REGISTER</a></li>
+            <li><a href="/">ABOUT US</a></li>
+            <li><a href="/">EVENTS</a></li>
+            <li><a href="/">GALLERY</a></li>
+            <li><a href="/">CONTACT US</a></li>
+            <li><a href="/">REGISTER</a></li>
         </ul>
-    </nav>
+    </nav> 
 </div>
    
   </div>
