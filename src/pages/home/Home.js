@@ -2,7 +2,7 @@ import React from 'react';
 import Landing from '../../components/LandingPage/landing';
 import Nav from '../../components/Nav/Nav';
 import About from '../../components/Aboutus/About';
-import Events from './components/Event/Event';
+import Events from '../../components/Event/Event';
 const Home = () => {
   return (
   <div>
