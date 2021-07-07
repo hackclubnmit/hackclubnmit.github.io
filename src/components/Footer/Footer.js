@@ -1,22 +1,148 @@
 import React from "react";
-
+//import "./Footer.css"
 const Footer = () => {
   return (
-    <footer>
-      <div className="footer-1">NMIT HACK CLUB</div>
-      <div className="footer-2">
-        Useful link
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Events</li>
-          <li>Gallery</li>
-          <li>Sponsors</li>
-          <li>Sponsors</li>
-        </ul>
-      </div>
-      <div className="footer-3"> </div>
-    </footer>
+    <div class="container my-4" style={{ height: "50%" }}>
+      <footer
+        class="text-center text-lg-start text-white"
+        style={{ backgroundColor: "#1c2331" }}
+      >
+        <section
+          class="d-flex justify-content-between p-4"
+          style={{ backgroundColor: "#6351ce" }}
+        >
+          <div class="me-5">
+            <span>Get connected with us on social networks:</span>
+          </div>
+
+          <div>
+            <a href="# " class="text-white me-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="# " class="text-white me-4">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="# " class="text-white me-4">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="# " class="text-white me-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="# " class="text-white me-4">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="# " class="text-white me-4">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </section>
+
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold">HackClub NMIT</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style={{
+                    width: "60px",
+                    backgroundColor: "#7c4dff",
+                    height: "2px",
+                  }}
+                />
+                <p>
+                  Here you can use rows and columns to organize your footer
+                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
+                </p>
+              </div>
+
+              {/*!-- Grid column --*/}
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                {/*<!-- Links -->*/}
+                <h6 class="text-uppercase fw-bold">Useful links</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style={{
+                    width: "60px",
+                    backgroundColor: "#7c4dff",
+                    height: "2px",
+                  }}
+                />
+                <p>
+                  <a href="#! " class="text-white">
+                    Home
+                  </a>
+                </p>
+                <p>
+                  <a href="#! " class="text-white">
+                    About
+                  </a>
+                </p>
+                <p>
+                  <a href="#!  " class="text-white">
+                    {" "}
+                    Events
+                  </a>
+                </p>
+                <p>
+                  <a href="#! " class="text-white">
+                    Gallery
+                  </a>
+                </p>
+                <p>
+                  <a href="#! " class="text-white">
+                    Sponsers
+                  </a>
+                </p>
+                <p>
+                  <a href="#! " class="text-white">
+                    Meet The Team
+                  </a>
+                </p>
+                <p>
+                  <a href="#! " class="text-white">
+                    Register
+                  </a>
+                </p>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                {/* <!-- Links -->*/}
+                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style={{
+                    width: "60px",
+                    backgroundColor: "#7c4dff",
+                    height: "2px",
+                  }}
+                />
+                <p>
+                  <i class="fas fa-home mr-3"></i> NMIT, BANGALORE
+                </p>
+                <p>
+                  <i class="fas fa-envelope mr-3"></i>hackclubnmit@gmail.com{" "}
+                </p>
+                <p>
+                  <i class="fas fa-phone mr-3"></i> 9999999999
+                </p>
+                <p>
+                  <i class="fas fa-print mr-3"></i> 9999999999
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div
+          class="text-center p-3"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
+        >
+          © 2021 Copyright: All right Reserved By HackClub NMIT
+        </div>
+      </footer>
+    </div>
   );
 };
 

@@ -5,6 +5,7 @@
   "dependencies": {
     "framer": "^1.2.5",
     "framer-motion": "^2.4.2",
+    "mdbreact": "^5.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
