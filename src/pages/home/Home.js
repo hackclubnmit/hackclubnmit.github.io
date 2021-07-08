@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Landing from "../../components/LandingPage/landing";
 import About from "../../components/Aboutus/About";
-import Events from "../../components/Event/Event";
 import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer/Footer";
-
+import Contact from "../../components/Contactus/Contact";
+import Gallery from "../../components/Gallery/Gallery";
+import Event from "../../components/Event/Event";
 import Register from "../../components/Register/Register";
+import styles from "../../app.module.css";
 
 const Home = () => {
   let mainNavLinks = document.querySelectorAll("nav ul li a");
@@ -29,13 +32,12 @@ const Home = () => {
         link.classList.remove("current");
       }
     });
-  });
+  }); 
 
   return (
     <div>
       <div id="body">
-        <Nav />
-
+        <Nav className={styles.sticky} />
         <main>
           <section id="section-1">
             <Landing />
@@ -44,18 +46,16 @@ const Home = () => {
             <About />
           </section>
           <section id="section-3">
-            <h1>Gallery</h1>
-            <h2>A different page should be added for this section</h2>
+            <Gallery/>
           </section>
           <section id="section-4">
-            <Events />
+            <Event/>
           </section>
           <section id="section-5">
             <Register />
           </section>
           <section id="section-6">
-            <h1>Section 6</h1>
-            <h2>Contact us</h2>
+            <Contact/>
           </section>
         </main>
       </div>

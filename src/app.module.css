@@ -1,0 +1,43 @@
+.img {
+    display:block;
+    transition:transform 0.25s ease;
+}
+
+.img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
+
+.h1{
+    font-size: 50px;
+    padding: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+.hr {
+    position: relative;
+    top: 5px;
+    border: none;
+    height: 5px;
+    width: 70%;
+    justify-content: center;
+    background: black;
+    margin-bottom: 10px;
+  }
+
+  .eventContainer {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card{
+    width: 18rem;
+  }
+
+  .sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100; /* this is not working for sticky nav */
+  } 
