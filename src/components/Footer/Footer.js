@@ -20,25 +20,25 @@ const FooterPagePro = () => {
           <MDBCol md="2" lg="2" xl="2" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">Useful links</h6>
             <p>
-              <a href="#!">Home</a>
+              <a href="#! ">Home</a>
             </p>
             <p>
-              <a href="#!">About</a>
+              <a href="#! ">About</a>
             </p>
             <p>
-              <a href="#!">Events</a>
+              <a href="#! ">Events</a>
             </p>
             <p>
-              <a href="#!">Gallery</a>
+              <a href="#! ">Gallery</a>
             </p>
             <p>
-              <a href="#!">Sponsors</a>
+              <a href="#! ">Sponsors</a>
             </p>
             <p>
-              <a href="#!">Meet The Team</a>
+              <a href="#! ">Meet The Team</a>
             </p>
             <p>
-              <a href="#!">Register</a>
+              <a href="#! ">Register</a>
             </p>
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
@@ -72,22 +72,22 @@ const FooterPagePro = () => {
             <div className="text-center text-md-right">
               <ul className="list-unstyled list-inline">
                 <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1">
+                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href="# ">
                     <i className="fab fa-facebook-f" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1">
+                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href="# ">
                     <i className="fab fa-twitter" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1">
+                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href="# ">
                     <i className="fab fa-google-plus" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1">
+                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href="# ">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </li>
