@@ -1,7 +1,12 @@
 import  React from 'react';
 
-// import LandingComponentSvg from '../svg/landingSvg';
 import  './landing.css';
+
+//have to connect app.module.css, but styles are not being loaded when called from modules
+//TODO: check why app.module.css is not responding, all classes have been added to module already
+
+
+
 const Landing = () => {
   return (
     <article className="landing">

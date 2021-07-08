@@ -1,5 +1,7 @@
 import React from "react";
-import "./Register.css";
+import styles from "../../app.module.css";
+
+
 const Register = () => {
   return (
     <div class="container">
@@ -20,7 +22,7 @@ const Register = () => {
           </p>
         </div>
 
-        <div class="col-md-auto" id="right">
+        <div class="col-md-auto" className={styles.right}>
           <h3>Some photo later</h3>
         </div>
       </div>

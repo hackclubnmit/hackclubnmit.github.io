@@ -1,5 +1,9 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import styles from "../../app.module.css";
+
+//TODO: check why app.module.css is not responding
+
 
 const FooterPagePro = () => {
   return (
