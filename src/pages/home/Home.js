@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import Landing from "../../components/LandingPage/landing";
 import About from "../../components/Aboutus/About";
 import Nav from "../../components/Nav/Nav";
-import Footer from "../../components/Footer/Footer";
 import Contact from "../../components/Contactus/Contact";
 import Gallery from "../../components/Gallery/Gallery";
 import Event from "../../components/Event/Event";
+import FooterPagePro from "../../components/Footer/Footer";
+import ScrollToTop from "../../components/ScrollToTop/scrollToTop";
+
 import Register from "../../components/Register/Register";
 import styles from "../../app.module.css";
 
@@ -59,7 +61,9 @@ const Home = () => {
           </section>
         </main>
       </div>
-      <Footer />
+      
+      <FooterPagePro />
+      <ScrollToTop />
     </div>
   );
 };

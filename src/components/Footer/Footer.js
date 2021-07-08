@@ -1,149 +1,103 @@
 import React from "react";
-//import "./Footer.css"
-const Footer = () => {
+import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+
+const FooterPagePro = () => {
   return (
-    <div class="container my-4" style={{ height: "50%" }}>
-      <footer
-        class="text-center text-lg-start text-white"
-        style={{ backgroundColor: "#1c2331" }}
-      >
-        <section
-          class="d-flex justify-content-between p-4"
-          style={{ backgroundColor: "#6351ce" }}
-        >
-          <div class="me-5">
-            <span>Get connected with us on social networks:</span>
-          </div>
-
-          <div>
-            <a href="# " class="text-white me-4">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="# " class="text-white me-4">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="# " class="text-white me-4">
-              <i class="fab fa-google"></i>
-            </a>
-            <a href="# " class="text-white me-4">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="# " class="text-white me-4">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="# " class="text-white me-4">
-              <i class="fab fa-github"></i>
-            </a>
-          </div>
-        </section>
-
-        <section class="">
-          <div class="container text-center text-md-start mt-5">
-            <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold">HackClub NMIT</h6>
-                <hr
-                  class="mb-4 mt-0 d-inline-block mx-auto"
-                  style={{
-                    width: "60px",
-                    backgroundColor: "#7c4dff",
-                    height: "2px",
-                  }}
-                />
-                <p>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
-                </p>
-              </div>
-
-              {/*!-- Grid column --*/}
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                {/*<!-- Links -->*/}
-                <h6 class="text-uppercase fw-bold">Useful links</h6>
-                <hr
-                  class="mb-4 mt-0 d-inline-block mx-auto"
-                  style={{
-                    width: "60px",
-                    backgroundColor: "#7c4dff",
-                    height: "2px",
-                  }}
-                />
-                <p>
-                  <a href="#! " class="text-white">
-                    Home
+    <MDBFooter color="mdb-color" className="font-small pt-4 mt-4">
+      <MDBContainer className="text-center text-md-left">
+        <MDBRow className="text-center text-md-left mt-3 pb-3">
+          <MDBCol md="3" lg="3" xl="3" className="mx-auto mt-3">
+            <h6 className="text-uppercase mb-4 font-weight-bold">
+              HACKCLUB NMIT
+            </h6>
+            <p>
+              Here you can use rows and columns here to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </MDBCol>
+          <hr className="w-100 clearfix d-md-none" />
+          <MDBCol md="2" lg="2" xl="2" className="mx-auto mt-3">
+            <h6 className="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+            <p>
+              <a href="#! ">Home</a>
+            </p>
+            <p>
+              <a href="#! ">About</a>
+            </p>
+            <p>
+              <a href="#! ">Events</a>
+            </p>
+            <p>
+              <a href="#! ">Gallery</a>
+            </p>
+            <p>
+              <a href="#! ">Sponsors</a>
+            </p>
+            <p>
+              <a href="#! ">Meet The Team</a>
+            </p>
+            <p>
+              <a href="#! ">Register</a>
+            </p>
+          </MDBCol>
+          <hr className="w-100 clearfix d-md-none" />
+          <hr className="w-100 clearfix d-md-none" />
+         
+          <MDBCol md="4" lg="3" xl="3" className="mx-auto mt-3">
+            <h6 className="text-uppercase mb-4 font-weight-bold">Contact us</h6>
+            <p>
+              <i className="fa fa-home mr-3" /> NMIT, Bangalore, India 560001
+            </p>
+            <p>
+              <i className="fa fa-envelope mr-3" /> hackclubnmit@gmail.com
+            </p>
+            <p>
+              <i className="fa fa-phone mr-3" /> + 91 234 567 88 78
+            </p>
+            <p>
+              <i className="fa fa-print mr-3" /> + 91 234 567 89 78
+            </p>
+          </MDBCol>
+        </MDBRow>
+        <hr />
+        <MDBRow className="d-flex align-items-center">
+          <MDBCol md="8" lg="8">
+            <p className="text-center text-md-left grey-text">
+              &copy; {new Date().getFullYear()} Copyright:{" "}
+              <a href="https://www.hackclubnmit.in"> HACKCLUB NMIT  </a>
+            </p>
+          </MDBCol>
+          <MDBCol md="4" lg="4" className="ml-lg-0">
+            <div className="text-center text-md-right">
+              <ul className="list-unstyled list-inline">
+                <li className="list-inline-item">
+                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href="# ">
+                    <i className="fab fa-facebook-f" />
                   </a>
-                </p>
-                <p>
-                  <a href="#! " class="text-white">
-                    About
+                </li>
+                <li className="list-inline-item">
+                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href="# ">
+                    <i className="fab fa-twitter" />
                   </a>
-                </p>
-                <p>
-                  <a href="#!  " class="text-white">
-                    {" "}
-                    Events
+                </li>
+                <li className="list-inline-item">
+                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href="# ">
+                    <i className="fab fa-google-plus" />
                   </a>
-                </p>
-                <p>
-                  <a href="#! " class="text-white">
-                    Gallery
+                </li>
+                <li className="list-inline-item">
+                  <a className="btn-floating btn-sm rgba-white-slight mx-1" href="# ">
+                    <i className="fab fa-linkedin-in" />
                   </a>
-                </p>
-                <p>
-                  <a href="#! " class="text-white">
-                    Sponsers
-                  </a>
-                </p>
-                <p>
-                  <a href="#! " class="text-white">
-                    Meet The Team
-                  </a>
-                </p>
-                <p>
-                  <a href="#! " class="text-white">
-                    Register
-                  </a>
-                </p>
-              </div>
-
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                {/* <!-- Links -->*/}
-                <h6 class="text-uppercase fw-bold">Contact</h6>
-                <hr
-                  class="mb-4 mt-0 d-inline-block mx-auto"
-                  style={{
-                    width: "60px",
-                    backgroundColor: "#7c4dff",
-                    height: "2px",
-                  }}
-                />
-                <p>
-                  <i class="fas fa-home mr-3"></i> NMIT, BANGALORE
-                </p>
-                <p>
-                  <i class="fas fa-envelope mr-3"></i>hackclubnmit@gmail.com{" "}
-                </p>
-                <p>
-                  <i class="fas fa-phone mr-3"></i> 9999999999
-                </p>
-                <p>
-                  <i class="fas fa-print mr-3"></i> 9999999999
-                </p>
-              </div>
+                </li>
+              </ul>
             </div>
-          </div>
-        </section>
-
-        <div
-          class="text-center p-3"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
-        >
-          © 2021 Copyright: All right Reserved By HackClub NMIT
-        </div>
-      </footer>
-    </div>
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>
+    </MDBFooter>
   );
-};
+}
 
-export default Footer;
+export default FooterPagePro;
