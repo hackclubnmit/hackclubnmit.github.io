@@ -1,147 +1,115 @@
 import React from "react";
-//import "./Footer.css"
+import "./Footer.css";
 const Footer = () => {
   return (
-    <div class="container my-4" style={{ height: "50%" }}>
-      <footer
-        class="text-center text-lg-start text-white"
-        style={{ backgroundColor: "#1c2331" }}
-      >
-        <section
-          class="d-flex justify-content-between p-4"
-          style={{ backgroundColor: "#6351ce" }}
-        >
-          <div class="me-5">
-            <span>Get connected with us on social networks:</span>
+    <div>
+      <footer>
+        <div className="container">
+          <div className="sec aboutus">
+            <h2> About us</h2>
+            <p>
+              Adipisicing culpa ipsum id sunt pariatur ipsum. Est minim enim duis
+              elit id voluptate commodo voluptate eiusmod id quis cillum. Laborum
+              anim eu laboris pariatur labore do laborum aliqua laboris
+              reprehenderit nulla nisi.{" "}
+            </p>
+            <ul className="sci">
+              <li>
+                {" "}
+                <a href="# ">
+                  {" "}
+                  <i class="fa fa-facebook" aria-hidden="true"></i>{" "}
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a href="# ">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>{" "}
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a href="# ">
+                  {" "}
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a href="# ">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>{" "}
+                </a>
+              </li>
+            </ul>
           </div>
-
-          <div>
-            <a href="# " class="text-white me-4">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="# " class="text-white me-4">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="# " class="text-white me-4">
-              <i class="fab fa-google"></i>
-            </a>
-            <a href="# " class="text-white me-4">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="# " class="text-white me-4">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="# " class="text-white me-4">
-              <i class="fab fa-github"></i>
-            </a>
+          <div className="sec quicklinks">
+            <h2> Useful Links </h2>
+            <ul>
+              <li>
+                {" "}
+                <a href="# ">Home</a>
+              </li>
+              <li>
+                {" "}
+                <a href="# ">About</a>
+              </li>
+              <li>
+                {" "}
+                <a href="# "> Events</a>
+              </li>
+              <li>
+                {" "}
+                <a href="# "> Gallery</a>
+              </li>
+              <li>
+                {" "}
+                <a href="# ">Sponsors</a>
+              </li>
+              <li>
+                {" "}
+                <a href="# ">Meet The Team</a>
+              </li>
+              <li>
+                {" "}
+                <a href="# ">Register</a>
+              </li>
+            </ul>
           </div>
-        </section>
-
-        <section class="">
-          <div class="container text-center text-md-start mt-5">
-            <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold">HackClub NMIT</h6>
-                <hr
-                  class="mb-4 mt-0 d-inline-block mx-auto"
-                  style={{
-                    width: "60px",
-                    backgroundColor: "#7c4dff",
-                    height: "2px",
-                  }}
-                />
+          <div className="sec contact">
+            <h2> Contact Info</h2>
+            <ul className="info">
+              <li>
+                <span>
+                  <i class="" aria-hidden="true"></i>
+                </span>
+                <span>NMIT BANGALORE</span>
+              </li>
+              <li>
+                <span>
+                  <i class="" aria-hidden="true"></i>
+                </span>
                 <p>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
+                  <a href="tel: 1234567890">1234567890</a><br />
+                  <a href="tel: 1234567890">1234567890</a>
                 </p>
-              </div>
-
-              {/*!-- Grid column --*/}
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                {/*<!-- Links -->*/}
-                <h6 class="text-uppercase fw-bold">Useful links</h6>
-                <hr
-                  class="mb-4 mt-0 d-inline-block mx-auto"
-                  style={{
-                    width: "60px",
-                    backgroundColor: "#7c4dff",
-                    height: "2px",
-                  }}
-                />
+              </li>
+              <li>
+                <span>
+                  <i class="" aria-hidden="true"></i>
+                </span>
                 <p>
-                  <a href="#! " class="text-white">
-                    Home
+                  <a href="mailto:hackclubnmit@nmit.ac.in">
+                    hackclubnmit@nmit.ac.in
                   </a>
                 </p>
-                <p>
-                  <a href="#! " class="text-white">
-                    About
-                  </a>
-                </p>
-                <p>
-                  <a href="#!  " class="text-white">
-                    {" "}
-                    Events
-                  </a>
-                </p>
-                <p>
-                  <a href="#! " class="text-white">
-                    Gallery
-                  </a>
-                </p>
-                <p>
-                  <a href="#! " class="text-white">
-                    Sponsers
-                  </a>
-                </p>
-                <p>
-                  <a href="#! " class="text-white">
-                    Meet The Team
-                  </a>
-                </p>
-                <p>
-                  <a href="#! " class="text-white">
-                    Register
-                  </a>
-                </p>
-              </div>
-
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                {/* <!-- Links -->*/}
-                <h6 class="text-uppercase fw-bold">Contact</h6>
-                <hr
-                  class="mb-4 mt-0 d-inline-block mx-auto"
-                  style={{
-                    width: "60px",
-                    backgroundColor: "#7c4dff",
-                    height: "2px",
-                  }}
-                />
-                <p>
-                  <i class="fas fa-home mr-3"></i> NMIT, BANGALORE
-                </p>
-                <p>
-                  <i class="fas fa-envelope mr-3"></i>hackclubnmit@gmail.com{" "}
-                </p>
-                <p>
-                  <i class="fas fa-phone mr-3"></i> 9999999999
-                </p>
-                <p>
-                  <i class="fas fa-print mr-3"></i> 9999999999
-                </p>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
-        </section>
-
-        <div
-          class="text-center p-3"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
-        >
-          © 2021 Copyright: All right Reserved By HackClub NMIT
         </div>
       </footer>
+      <div className="copyright"> 
+          <p> copyright 2021 HACKCLUB NMIT</p>
+      </div>
     </div>
   );
 };
