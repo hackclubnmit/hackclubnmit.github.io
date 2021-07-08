@@ -3,7 +3,7 @@ import Landing from "../../components/LandingPage/landing";
 import About from "../../components/Aboutus/About";
 import Events from "../../components/Event/Event";
 import Nav from "../../components/Nav/Nav";
-import Footer from "../../components/Footer/Footer";
+import FooterPagePro from "../../components/Footer/Footer";
 import ScrollToTop from "../../components/ScrollToTop/scrollToTop";
 
 import Register from "../../components/Register/Register";
@@ -61,7 +61,7 @@ const Home = () => {
         </main>
       </div>
       
-      <Footer />
+      <FooterPagePro />
       <ScrollToTop />
     </div>
   );
