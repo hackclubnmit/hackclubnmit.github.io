@@ -1,0 +1,20 @@
+.navbar_wrapper {
+    position: fixed;
+    width: 100%;
+    .navbar_item {
+        display: flex;
+        justify-content: center;
+        .navbar_link {
+            margin: 0 8px;
+            font-weight: 600;
+        }
+    }
+    .tag_link {
+        background-color: rgb(191, 221, 248);
+        position: absolute;
+        height: 250px;
+        width:80px;
+        right: 10px;
+        clip-path: polygon(100% 0, 100% 83%, 53% 100%, 0 83%, 0 0);
+    }
+}

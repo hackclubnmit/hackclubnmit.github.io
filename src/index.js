@@ -1,20 +1,28 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
-
-import MainLayout from "./layouts/Main/MainLayout"
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+// import Home from "./views/Home/Home"
+import { Homepage, Aboutpage } from "./views";
+import Navbar from "./components/Navbars/Navbars";
 import "./index.css";
 
+const Home = () => {
+  return (
+    <Fragment>
+      <Homepage />
+      <Aboutpage />
+    </Fragment>
+  );
+};
+
 ReactDOM.render(
-    
-    <BrowserRouter>
+  <BrowserRouter>
+    <Navbar />
     <Switch>
-      <Route path="/" render={(props) => <MainLayout {...props} />} />
-    
-      {/* <Redirect from="/" to="/"/> */}
+      <Route exact path="/" component={Home} />
     </Switch>
-  </BrowserRouter>
-    
-    
-    , document.getElementById("root"));
+  </BrowserRouter>,
+
+  document.getElementById("root")
+);
