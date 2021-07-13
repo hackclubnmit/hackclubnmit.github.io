@@ -36,6 +36,13 @@
       background: transparent;
       border-radius: 9999px;
       font-size: 18px;
+      &:hover,&:active 
+      {
+          border: 2px solid rgb(228, 45, 66);
+          color: rgb(228, 45, 66);
+          background: none;
+          box-shadow: none;
+      }
     }
 
     &-arrow {
