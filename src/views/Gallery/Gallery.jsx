@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./Gallery.scss";
 
-import { Row, Col, Container } from "reactstrap";
+import { Container } from "reactstrap";
 import {
     Carousel,
     CarouselItem,
