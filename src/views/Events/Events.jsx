@@ -56,7 +56,7 @@ const Events = () => {
           <Row>
 
             <Col sm="4">
-            <Card body>
+            <Card body color="dark">
                 <CardImg top width="100%" src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="Card image cap" />
                 <CardBody>
                     <CardTitle tag="h5">Card title</CardTitle>
@@ -68,7 +68,7 @@ const Events = () => {
             </Col>
 
             <Col sm="4">
-            <Card body>
+            <Card body color="dark">
                 <CardImg top width="100%" src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="Card image cap" />
                 <CardBody>
                     <CardTitle tag="h5">Card title</CardTitle>
@@ -80,7 +80,7 @@ const Events = () => {
             </Col>
 
             <Col sm="4">
-            <Card body>
+            <Card body color="dark">
                 <CardImg top width="100%" src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="Card image cap" />
                 <CardBody>
                     <CardTitle tag="h5">Card title</CardTitle>
@@ -97,8 +97,8 @@ const Events = () => {
           <Row>
 
             <Col sm="6">
-              <Card body>
-                <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+              <Card body color="dark">
+              <CardImg top width="100%" src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="Card image cap" />
                 <CardBody>
                     <CardTitle tag="h5">Card title</CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
@@ -109,8 +109,8 @@ const Events = () => {
             </Col>
             
             <Col sm="6">
-              <Card body>
-                <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+              <Card body color="dark">
+              <CardImg top width="100%" src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="Card image cap" />
                 <CardBody>
                     <CardTitle tag="h5">Card title</CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
@@ -127,7 +127,7 @@ const Events = () => {
         <Row>
 
 <Col sm="4">
-<Card body>
+<Card body color="dark">
     <CardImg top width="100%" src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Card image cap" />
     <CardBody>
         <CardTitle tag="h5">Card title</CardTitle>
@@ -139,7 +139,7 @@ const Events = () => {
 </Col>
 
 <Col sm="4">
-<Card body>
+<Card body color="dark">
     <CardImg top width="100%" src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Card image cap" />
     <CardBody>
         <CardTitle tag="h5">Card title</CardTitle>
@@ -151,7 +151,7 @@ const Events = () => {
 </Col>
 
 <Col sm="4">
-<Card body>
+<Card body color="dark">
     <CardImg top width="100%" src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Card image cap" />
     <CardBody>
         <CardTitle tag="h5">Card title</CardTitle>
