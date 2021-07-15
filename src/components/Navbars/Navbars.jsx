@@ -10,6 +10,7 @@ import {
     NavbarText
   } from 'reactstrap';
 import "./navbar.scss"
+import logo from "../../assets/logo/logo.png"
 
 const Navbars = () => {
 
@@ -39,7 +40,7 @@ const Navbars = () => {
         <NavbarText className="navbar_link">Simple Text</NavbarText>
       </Collapse>
       <div className="tag_link">
-         <p>hello this is hack club NMIT</p>
+         <img src={logo}  alt="hackclub-nmit-logo" className="logo"/>
       </div>
     </Navbar>
   </div>
