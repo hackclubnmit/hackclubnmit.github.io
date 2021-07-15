@@ -1,0 +1,52 @@
+// Colors
+$bg-color: rgb(18, 18, 22);
+$dot-color: hsl(256,33,70);
+
+// Dimensions
+$dot-size: 1px;
+$dot-space: 22px;
+
+.footer {
+    padding: 40px;
+    color:rgb(188,197,203);
+    height:70vh;
+	background:
+		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+		$dot-color;
+	background-size: $dot-space $dot-space;
+       
+    
+    
+    &-con{
+        padding: 15px;
+        margin-top: 35px;
+       
+
+        &-link{
+            padding: 10px;
+            font-size: 18px;
+            color:rgb(122, 129, 133);
+        }
+        &-sociallink{
+            padding: 5px;
+            margin: 2px;
+            color:rgb(103, 110, 114);
+        }
+        &-sociallink:hover{
+            color:beige;
+        }
+
+       
+        
+    }
+}
+/*Col h4:before{
+    content: " ";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #f00;
+}*/

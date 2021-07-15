@@ -6,6 +6,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Homepage, Aboutpage, Eventspage, Gallertpage} from "./views";
 import Navbar from "./components/Navbars/Navbars";
 import "./index.css";
+import Footer from "./components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ ReactDOM.render(
     <Switch>
       <Route exact path="/" component={Home} />
     </Switch>
+    <Footer />
   </BrowserRouter>,
 
   document.getElementById("root")
