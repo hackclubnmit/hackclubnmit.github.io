@@ -8,7 +8,7 @@ function Footer() {
       <Container className="footer-con">
       
         <Row >
-            
+            < Col />
             <Col lg="2" >
               <h4> Hack Club</h4>
               <Row className="footer-con-link"> hello</Row>
@@ -35,8 +35,6 @@ function Footer() {
               <a href="# "  className="footer-con-sociallink"><span><i class="fas fa-envelope fa-2x"></i></span> </a>
               <br /> 
 
-              
-              
             </Col>
             
         </Row>

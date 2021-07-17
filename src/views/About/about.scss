@@ -1,7 +1,8 @@
 .about {
     background-color: #17171D;
-    height: 100vh;
+    height: 300vh;
     color: rgb(255, 255, 255);
+    
     // margin-top: 100px;
 
     &-div {
@@ -15,12 +16,33 @@
     &-con {
         &-row {
             margin-top: 10px;
+            background:#17171D;
         }
-        &-cards {
-            margin-right: 20px;
-            background: white;
-            color: black;
-            height: 100px;
+        
+         
+        &-right{
+            img{
+                width: 550px; 
+                margin: 10px;
+                
+                
+            }
+            &-card{
+                padding: 8px;
+                margin-bottom: 24px;
+                color: rgb(218, 207, 207);
+            background-color: rgb(37,36,41);
+            }
         }
+        &-left {
+            
+            &-card{
+                padding: 8px;
+                margin-bottom: 24px;
+                color: rgb(218, 207, 207);
+            background-color: rgb(37,36,41);
+            }
+        }
+       
     }
 }
