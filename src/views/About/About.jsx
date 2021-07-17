@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.scss";
-import { Card, CardTitle, CardText, CardImg, CardImgOverlay, Row, Col, Container } from "reactstrap";
+import { Card, Row, Col, Container } from "reactstrap";
 export default function About() {
   return (
     <div className="about">
