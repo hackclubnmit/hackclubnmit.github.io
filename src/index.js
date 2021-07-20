@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
+
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 // import Home from "./views/Home/Home"
@@ -13,8 +14,10 @@ const Home = () => {
     <Fragment>
       <Homepage />
       <Aboutpage />
+      
       <Eventspage />
       <Gallertpage/>
+      
     </Fragment>
   );
 };

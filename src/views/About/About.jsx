@@ -60,7 +60,6 @@ export default function About() {
                 </Row>
               </Col>
             </Row>
-            <div> <h1> have any doubt</h1></div>
         </Container>
       </Container>
     </div>
