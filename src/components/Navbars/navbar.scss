@@ -1,5 +1,6 @@
 .navbar_wrapper {
     position: fixed;
+    z-index: 100000;
     width: 100%;
     .navbar_item {
         display: flex;
