@@ -36,6 +36,11 @@ const Navbars = () => {
           <NavItem className="navbar_link">
             <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
           </NavItem>
+
+          <NavItem className="navbar_link">
+            <NavLink href="/donate">Donate</NavLink>
+          </NavItem>
+
         </Nav>
         <NavbarText className="navbar_link">Simple Text</NavbarText>
       </Collapse>

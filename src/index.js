@@ -8,6 +8,7 @@ import { Homepage, Aboutpage, Eventspage, Gallertpage} from "./views";
 import Navbar from "./components/Navbars/Navbars";
 import "./index.css";
 import Footer from "./components/Footer/Footer";
+import Donate from "./views/Donate/Donate";
 
 const Home = () => {
   return (
@@ -27,6 +28,8 @@ ReactDOM.render(
     <Navbar />
     <Switch>
       <Route exact path="/" component={Home} />
+      <Route exact path="/donate" component={Donate} />
+
     </Switch>
     <Footer />
   </BrowserRouter>,

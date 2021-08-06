@@ -1,0 +1,99 @@
+.donate {
+  height: auto;
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "Phantom Sans", system-ui, "Segoe UI", sans-serif;
+  background: rgb(62, 62, 80);
+  color: aliceblue;
+
+  &-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    max-width: 50%;
+    h3 {
+      color: rgb(230, 170, 114);
+    }
+  }
+  &-card {
+    display: block;
+    max-width: 27rem;
+    font-weight: 600;
+    align-items: center;
+    
+    &-c1 {
+      background: rgb(43, 43, 58);
+      padding: 0.8rem;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+      h1{
+        color: rgb(230, 170, 114);
+    }
+      &-btn {
+        padding: 10px;
+      }
+      &-btn:hover {
+        box-shadow: 0 1px 3px rgba(228, 224, 224, 0.12),
+          0 1px 2px rgba(177, 177, 177, 0.24);
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        transform: scale(1.02);
+        background: rgb(34, 54, 56);
+      }
+    }
+  
+  &-c2 {
+    background: rgb(43, 43, 58);
+    padding: 0.8rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+    &-btn {
+      padding: 10px;
+    }
+    &-btn:hover {
+      box-shadow: 0 1px 3px rgba(228, 224, 224, 0.12),
+        0 1px 2px rgba(177, 177, 177, 0.24);
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      transform: scale(1.02);
+      background: rgb(34, 54, 56);
+    }
+  
+}
+  
+}
+
+  &-sec-2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: space-between;
+        padding: 4rem;
+        font-size: 18px;
+    h1{  color: rgb(230,170,144);}
+  }
+  
+  table,  td{
+    border:1px solid black;
+    background: rgb(118, 118, 180);
+    justify-content: center;
+    color: rgb(241, 210, 150);
+    padding: auto;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+}
+.table-div{
+justify-content:center ;
+align-self: center;
+float: center;
+margin: auto;
+
+a{
+  color: aliceblue;
+}
+
+}

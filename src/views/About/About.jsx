@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.scss";
-import { Card, Row, Col, Container } from "reactstrap";
+import { Card,CardText, CardBody, Row, Col, Container } from "reactstrap";
 export default function About() {
   return (
     <div className="about">
@@ -19,20 +19,22 @@ export default function About() {
                 <Card className="about-con-left-card">
                   <p>
                     Do aliquip mollit sit esse veniam. Enim esse et ad veniam culpa qui.
-                    Nulla mollit aliquip sit culpa. Nostrud do irure cillum veniam
-                    aliquip ex fugiat consequat eiusmod.
+                    Nulla mollit aliquip sit culpa.
                   </p>
                 </Card>
                 <Card className="about-con-left-card">
-                  <p>
-                    Do aliquip mollit sit esse veniam. Enim esse et ad veniam culpa qui.
-                    Nulla mollit aliquip sit culpa. Nostrud do irure cillum veniam
-                    aliquip ex fugiat consequat eiusmod.
-                  </p>
+                  <CardBody>
+                    <CardText>
+                    
+                        Do aliquip mollit sit esse veniam. Enim esse et ad veniam culpa qui.
+                        Nulla mollit aliquip sit culpa.
+                    
+                    </CardText>
+                  </CardBody>
                 </Card>
               </Col>
               <Col lg="8" className="about-con-right">
-             <img src= "https://hackclub.com/bank/laptop-light.png" alt="about-laptop" className="" />
+             <a href="# "><img src= "https://hackclub.com/bank/laptop-light.png" alt="about-laptop" className="" /></a>
                 <Row className="about-con-row">
                     <Col className="" md="12" lg="5"> 
                     <Card className="about-con-right-card"> <p>
