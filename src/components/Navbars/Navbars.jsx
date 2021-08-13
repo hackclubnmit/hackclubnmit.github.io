@@ -31,7 +31,7 @@ const Navbars = () => {
             <NavLink href="/components/">Gallery</NavLink>
           </NavItem>
           <NavItem className="navbar_link">
-            <NavLink href="/components/">Teams</NavLink>
+            <NavLink href="/team/">Teams</NavLink>
           </NavItem>
           <NavItem className="navbar_link">
             <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
