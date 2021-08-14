@@ -3,7 +3,7 @@ import { Card, CardBody, CardImg, CardTitle, Row } from "reactstrap";
 
 import {photo} from "../../assets/teamPic/1.jpg"
 
-import { team2021_tec, team2021_des, team2021_pr,team2021_op, team2019_tec, team2019_des, team2019_pr,team2019_op} from "../TeamComponents/teamDb";
+import { team2021_tec, team2021_des, team2021_pr,team2021_op, team2019_tec} from "../TeamComponents/teamDb";
 
 import './Teamsdetail.scss';
 
