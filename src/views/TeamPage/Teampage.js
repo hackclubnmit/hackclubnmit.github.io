@@ -12,9 +12,7 @@ import RachetMudnur from "../../assets/teamPic/RachetMudnur.jpeg";
 import "./TeamPage.scss";
 
 import { HashRouter, Switch, Link, Route } from "react-router-dom";
-import Team2019 from "../../components/TeamComponents/Team2019";
-import Team2020 from "../../components/TeamComponents/Team2020";
-import Team2021 from "../../components/TeamComponents/Team2021";
+import {Team2019,Team2020, Team2021 } from "../../components/TeamComponents/Team2019";
 
 
 function TeamPage() {

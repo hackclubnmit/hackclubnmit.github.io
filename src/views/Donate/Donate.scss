@@ -5,7 +5,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   font-family: "Phantom Sans", system-ui, "Segoe UI", sans-serif;
-  background: rgb(62, 62, 80);
+  background: #17171D;
   color: aliceblue;
 
   &-heading {
@@ -74,26 +74,42 @@
     h1{  color: rgb(230,170,144);}
   }
   
-  table,  td{
-    border:1px solid black;
-    background: rgb(118, 118, 180);
-    justify-content: center;
-    color: rgb(241, 210, 150);
-    padding: auto;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-  }
+  
   
 }
-.table-div{
-justify-content:center ;
-align-self: center;
-float: center;
-margin: auto;
 
-a{
-  color: aliceblue;
+
+.table__wrap{
+  padding: 50px 15px 0 15px;
 }
-
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+.tbl-header {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.tbl-content {
+  height: 300px;
+  overflow-x: auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+th {
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+td {
+  padding: 20px 15px;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
 }

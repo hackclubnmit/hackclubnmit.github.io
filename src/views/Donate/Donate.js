@@ -57,27 +57,39 @@ function Donate() {
             </div>
           </div>
 
-          <div className="table-div">
+          <div >
             <h2> Our Donars</h2>
-            <div>
-              <table>
-                <tr>
-                  {" "}
-                  <th> donar Names</th>
-                </tr>
+                  {/*table */}
 
-                {donarName.map((names) => (
+            <div class="table__wrap">
+      <div class="tbl-header">
+        <table cellpadding="0" cellspacing="0" border="0">
+          <thead>
+            <tr>
+              <th>Donars</th>
+              
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="tbl-content">
+        <table cellpadding="0" cellspacing="0" border="0">
+          <tbody>
+          {donarName.map((names) => (
                   <tr>
                     <td><a href={names.link}> {names.name}</a></td>
                   </tr>
                 ))}
-              </table>
-            </div>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
           </div>
         </Container>
       </div>
     </div>
   );
-}
+} 
 
 export default Donate;
