@@ -1,10 +1,14 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
-
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-// import Home from "./views/Home/Home"
-import { Homepage, Aboutpage, Eventspage, Gallertpage } from "./views";
+import {
+  Homepage,
+  Aboutpage,
+  Eventspage,
+  Gallertpage,
+  EventsHome,
+} from "./views";
 import Navbar from "./components/Navbars/Navbars";
 import "./index.css";
 import Footer from "./components/Footer/Footer";
@@ -16,8 +20,7 @@ const Home = () => {
     <Fragment>
       <Homepage />
       <Aboutpage />
-
-      <Eventspage />
+      <EventsHome />
       <Gallertpage />
     </Fragment>
   );
@@ -30,6 +33,7 @@ ReactDOM.render(
       <Route exact path="/" component={Home} />
       <Route exact path="/donate" component={Donate} />
       <Route exact path="/team" component={TeamPage} />
+      <Route exact path="/events" component={Eventspage} />
     </Switch>
     <Footer />
   </BrowserRouter>,

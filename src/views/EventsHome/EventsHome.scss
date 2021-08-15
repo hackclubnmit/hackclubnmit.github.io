@@ -1,0 +1,45 @@
+.evnt {
+  background: #17171d;
+}
+.eventhome {
+  //   min-height: 100vh;
+  display: block !important;
+  // background-color: red;
+  padding-bottom: 10px;
+  &_head {
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__text {
+      margin: 0;
+      font-family: roboto;
+      font-size: 35px;
+      color: white;
+      // margin-left: 50px;
+    }
+    &__link {
+      color: white !important;
+      text-decoration: none;
+      font-size: 18px;
+      font-family: poppins;
+      // margin-right: 50px;
+
+      &:hover,
+      &:active,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+  &_slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+  }
+}
+
+.slick-dots li button:before {
+  color: white !important;
+}

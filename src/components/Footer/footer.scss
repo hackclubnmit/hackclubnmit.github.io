@@ -24,7 +24,7 @@ footer {
     $dot-color;
   background-size: $dot-space $dot-space;
 }
-.container {
+.footer_container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -80,6 +80,15 @@ footer p {
 .quicklinks {
   position: relative;
   width: 25%;
+  // display: flex;
+
+  &_links {
+    display: flex;
+    flex-wrap: wrap;
+    & > * {
+      flex: 0 0 50%;
+    }
+  }
 }
 .quicklinks ul li {
   list-style: none;
@@ -127,6 +136,11 @@ footer p {
   text-align: center;
   color: rgb(238, 237, 237);
   font-size: 20px;
+  letter-spacing: 0.5rem;
+
+  &_icon {
+    margin: 0 2px;
+  }
 }
 @media (max-width: 991px) {
   footer {

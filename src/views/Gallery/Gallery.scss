@@ -1,34 +1,33 @@
-
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
-
-
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
-
 .about {
-    background-color: #17171D;
-    height: 100vh;
-    color: rgb(255, 255, 255);
-    // margin-top: 100px;
+  background-color: #17171d;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  // margin-top: 100px;
 
-    &-div {
-        height: 100px;
+  &_container {
+    justify-content: center !important;
+  }
+
+  &-div {
+    height: 100px;
+  }
+
+  &-con {
+    &-row {
+      margin-top: 10px;
     }
-
-
-    &-con {
-        &-row {
-            margin-top: 10px;
-        }
-        &-cards {
-            margin-right: 20px;
-            background: white;
-            color: black;
-            height: 100px;
-        }
+    &-cards {
+      margin-right: 20px;
+      background: white;
+      color: black;
+      height: 100px;
     }
+  }
 }
 
 .image {
-    margin: auto;
-  }
+  margin: auto;
+}
