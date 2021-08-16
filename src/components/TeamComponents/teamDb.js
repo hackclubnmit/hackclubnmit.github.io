@@ -1,27 +1,28 @@
+
 export const team2021_tec = [
     {
         id:'1',
         team:'tech team ',
         name:'Ayush',
-        photo:'https://www.hackbout.tech/static/media/satvik.470d6610.png',
+        photo:'ayush.jpg',
     },
     {
         id:'2',
         team:'tech team ',
         name:'Aastha',
-        photo:'https://www.hackbout.tech/static/media/satvik.470d6610.png',
+        photo:'aastha.jpg',
     },
     {
         id:'3',
         team:'tech team ',
         name:'Onkar',
-        photo:'https://www.hackbout.tech/static/media/satvik.470d6610.png',
+        photo:'onkar.jpg',
     },
     {
         id:'4',
         team:'tech team ',
         name:'Nitish',
-        photo:'https://www.hackbout.tech/static/media/satvik.470d6610.png',
+        photo:'nitish.jpg',
     },
 ];
 
@@ -29,27 +30,27 @@ export const team2021_tec = [
 export const team2021_des = [
     {
         id:'1',
-        team:'tech team ',
-        name:'Nancy',
-        photo:'https://www.hackbout.tech/static/media/satvik.470d6610.png',
+        team:'des team ',
+        name:'Aniruddha Sil',
+        photo:'anirudh.jpg',
     },
     {
         id:'2',
-        team:'tech team ',
-        name:'Lawless',
-        photo:'https://www.hackbout.tech/static/media/satvik.470d6610.png',
+        team:'des team ',
+        name:'Amaan Mohib',
+        photo:'amaan.jpg',
     },
     {
         id:'3',
-        team:'tech team ',
-        name:'Onkar',
-        photo:'https://www.hackbout.tech/static/media/satvik.470d6610.png',
+        team:'des team ',
+        name:'Nancy B',
+        photo:'nancy.jpg',
     },
     {
         id:'4',
-        team:'tech team ',
-        name:'Nitish',
-        photo:'https://www.hackbout.tech/static/media/satvik.470d6610.png',
+        team:'des team ',
+        name:'Utsav',
+        photo:'nancy.jpg',
     },
 ];
 
@@ -57,20 +58,20 @@ export const team2021_pr = [
     {
         id:'1',
         team:'pr team ',
-        name:'Harshitha',
-        photo:'https://www.hackbout.tech/static/media/Harshitha.9570f38a.jpeg',
+        name:'Harshitha P',
+        photo:'harshita.jpg',
     },
     {
         id:'2',
         team:'pr team ',
         name:'Lasya Sistla',
-        photo:'https://www.hackbout.tech/static/media/satvik.470d6610.png',
+        photo:'lasya.jpg',
     },
     {
         id:'3',
         team:'pr team ',
         name:'Viswambhari A',
-        photo:'https://www.hackbout.tech/static/media/satvik.470d6610.png',
+        photo:'lasya.jpg',
     },
    
 ];
