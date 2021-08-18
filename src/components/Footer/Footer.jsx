@@ -87,13 +87,13 @@ function Footer() {
             <ul className="info p-0">
               <li>
                 <span>
-                  <i class="" aria-hidden="true"></i>
+                  <i className="" aria-hidden="true"></i>
                 </span>
                 <span>NMIT BANGALORE</span>
               </li>
               <li>
                 <span>
-                  <i class="" aria-hidden="true"></i>
+                  <i className="" aria-hidden="true"></i>
                 </span>
                 <p>
                   <a href="tel: 1234567890">1234567890</a>
@@ -103,7 +103,7 @@ function Footer() {
               </li>
               <li>
                 <span>
-                  <i class="" aria-hidden="true"></i>
+                  <i className="" aria-hidden="true"></i>
                 </span>
                 <p>
                   <a href="mailto:hackclubnmit@nmit.ac.in">

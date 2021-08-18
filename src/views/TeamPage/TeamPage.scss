@@ -1,6 +1,7 @@
 //$background: #17171d;
 
 .team{
+  
     width: 100%;
     min-height: 100vh;
     background: #17171D;
@@ -17,15 +18,20 @@
   min-height: 100vh;
 
   h1 {
-    color: #e6aa72;
+    // color: #e6aa72;
+    color: #fff;
     font-size: 45px;
     font-weight: 600;
+    margin-top: 1rem;
+
   }
   h2{
+    margin-top: 1rem;
     color: #fff;
   }
 
   &-head {
+    
     display: flex;
     flex-direction: column;
     margin-top: 60px;
@@ -33,34 +39,49 @@
   }
 }
 
+.card-div{
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  // flex-direction: column;
+  align-items: center; 
+  margin-left: auto;
+  margin-right: auto;
+   padding: 10px;
+   gap: 1rem;
+   justify-content: center;
+}
+
 .Card {
     
   &-founder {
-    display: block;
-    margin: 20px;
-    padding: 2px;
+    max-height: 23rem;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    color: rgb(218, 207, 207);
+    background-color: rgb(37, 36, 41);
     align-items: center;
-    box-shadow: 0 10px 13px rgba(253, 250, 250, 0.349),
-      0 6px 6px rgba(219, 219, 219, 0.23);
-  }
+  } 
 }
-.Row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+// .Row {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
 
 .timeline-link {
+  margin-top: 2rem;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-max-width: 400px;
-
+  max-width: 400px;
+  // width: 40%;
   background: #22222c;
   font-size: 35px;
   padding: 5px;
-  margin: 25px 20px 20px 70px ;
+  // margin: 25px 20px 20px 70px ;
   a {
     color: #fff;
     text-transform: uppercase;
@@ -77,7 +98,7 @@ max-width: 400px;
     li a{
         text-decoration: none;
         padding: 0.2em 1.1rem;
-        border-right: 1px solid rgba(255,255,255,0.8);
+        // border-right: 1px solid rgba(255,255,255,0.8);
         margin: 0 0 0 -6px;
     }
     li a:hover{

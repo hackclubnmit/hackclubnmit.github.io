@@ -16,12 +16,13 @@ function TeamPage() {
       <Container className="container-team">
         <div className="teampage-main">
           <div className="teampage-main-head">
-            <h1> <u>Our Teams</u></h1>
+            <h1> Our Teams</h1>
           </div>
           <div>
             <h2> Founders</h2>
           </div>
           <Row className="founder">
+            <div className="card-div">
             <Card className="Card-founder">
               <CardImg width="10%" src={RachetMudnur} alt="founder Img" />
               <CardBody>
@@ -34,6 +35,7 @@ function TeamPage() {
                 <CardTitle tag="h5">Anurag Singh</CardTitle>
               </CardBody>
             </Card>
+            </div>
           </Row>
           <Row>
             <div>
