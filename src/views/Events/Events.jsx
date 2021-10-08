@@ -70,8 +70,9 @@ function Item(props)
                   <CardImg
                     top
                     width="100%"
-                    src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                    src="https://cdn.discordapp.com/attachments/635122710086942742/894179685590769674/eb58d258-0b75-47b7-91a5-5a1d02bca042.png"
                     alt="Card image cap"
+                    className="card_img"
                   />
                   <CardBody>
                     <CardTitle tag="h5">Card title</CardTitle>

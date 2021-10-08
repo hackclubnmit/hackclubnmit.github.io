@@ -9,7 +9,7 @@ import {
   NavLink,
 } from "reactstrap";
 import "./navbar.scss";
-import logo from "../../assets/logo/logo.png";
+//import logo from "../../assets/logo/logo.png";
 
 const Navbars = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,21 +35,21 @@ const Navbars = () => {
               <NavLink href="/team/">Teams</NavLink>
             </NavItem>
             <NavItem className="navbar_link">
-              <NavLink href="https://github.com/reactstrap/reactstrap">
+              <NavLink href="https://github.com/hackclubnmit">
                 GitHub
               </NavLink>
             </NavItem>
-            <NavItem className="navbar_link">
+           {/* <NavItem className="navbar_link">
               <NavLink href="/donate">Donate</NavLink>
-            </NavItem>
+                </NavItem>*/}
             <NavItem className="navbar_link">
-              <NavLink href="/">Extra</NavLink>
+              <NavLink href="/contact">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
-        <div className="tag_link">
+       {/* <div className="tag_link">
           <img src={logo} alt="hackclub-nmit-logo" className="logo" />
-        </div>
+              </div> */}
       </Navbar>
     </div>
   );

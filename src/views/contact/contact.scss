@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
+
+.contact_div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    //font-family: 'Tangerine', serif;
+    background: #17171D;
+   
+
+.contact_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2a2a3681;
+    color: whitesmoke;
+    font-size: 22px;
+    box-shadow: 0 14px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    
+    width: 40rem;
+    height: 32rem;
+    margin:auto;
+   // padding: 2rem;
+    h1{
+        font-size:50px;
+        margin-top:-120px;
+        text-decoration: underline;
+    }
+    &__add{
+        font-size: 25px;
+        padding: 2rem;
+
+    }
+    
+    
+}
+a{
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+button{
+    background: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all .5s;
+
+}
+button:hover{
+    background: rgba(113, 138, 148, 0.555);
+    color: white;
+    box-shadow: 0px 0px 20px #000000;
+   
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.02);
+}
+
+}
