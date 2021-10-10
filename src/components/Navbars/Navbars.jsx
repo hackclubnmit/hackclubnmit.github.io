@@ -17,9 +17,9 @@ const Navbars = () => {
   const toggle = () => setIsOpen(!isOpen);
   return (
     <div>
-      <Navbar className="navbar_wrapper" color="" dark expand="md">
+      <Navbar className="navbar_wrapper" dark expand="md">
         <NavbarBrand href="/">Hack Club NMIT</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler className="navbar_toggler" onClick={toggle} />
         <Collapse isOpen={isOpen} className="navbar_item" navbar>
           <Nav navbar>
             <NavItem className="navbar_link">
@@ -35,11 +35,9 @@ const Navbars = () => {
               <NavLink href="/team/">Teams</NavLink>
             </NavItem>
             <NavItem className="navbar_link">
-              <NavLink href="https://github.com/hackclubnmit">
-                GitHub
-              </NavLink>
+              <NavLink href="https://github.com/hackclubnmit">GitHub</NavLink>
             </NavItem>
-           {/* <NavItem className="navbar_link">
+            {/* <NavItem className="navbar_link">
               <NavLink href="/donate">Donate</NavLink>
                 </NavItem>*/}
             <NavItem className="navbar_link">
@@ -47,7 +45,7 @@ const Navbars = () => {
             </NavItem>
           </Nav>
         </Collapse>
-       {/* <div className="tag_link">
+        {/* <div className="tag_link">
           <img src={logo} alt="hackclub-nmit-logo" className="logo" />
               </div> */}
       </Navbar>
