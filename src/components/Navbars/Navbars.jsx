@@ -34,9 +34,11 @@ const Navbars = () => {
             <NavItem className="navbar_link">
               <NavLink href="/team/">Teams</NavLink>
             </NavItem>
-            <NavItem className="navbar_link">
-              <NavLink href="https://github.com/hackclubnmit">GitHub</NavLink>
-            </NavItem>
+            {/*<NavItem className="navbar_link">
+              <NavLink href="https://github.com/hackclubnmit">
+                GitHub
+              </NavLink>
+  </NavItem>*/}
             {/* <NavItem className="navbar_link">
               <NavLink href="/donate">Donate</NavLink>
                 </NavItem>*/}

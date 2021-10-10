@@ -18,21 +18,32 @@
     background: #2a2a3681;
     color: whitesmoke;
     font-size: 22px;
-    box-shadow: 0 14px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 14px 20px rgba(0,0,0,0.19), 0 8px 8px rgba(0,0,0,0.23);
+    border-radius: 18px;
     
     width: 40rem;
     height: 32rem;
     margin:auto;
    // padding: 2rem;
+   .link{
+       display: flex;
+       flex-wrap: nowrap;
+   }
     h1{
         font-size:50px;
+        letter-spacing: 0.3rem;
         margin-top:-120px;
-        text-decoration: underline;
+        
     }
     &__add{
-        font-size: 25px;
+        font-size: 22px;
         padding: 2rem;
+        margin: 1rem;
 
+    }
+    .icon{
+        color: #404EED;
+        width: 20px;
     }
     
     
@@ -41,6 +52,7 @@ a{
     font-weight: 600;
     color: black;
     text-decoration: none;
+    text-align: center;
 }
 a:hover{
     color: white;
@@ -53,6 +65,9 @@ button{
     display: inline-block;
     text-transform: uppercase;
     transition: all .5s;
+    color: blue;
+    text-align: center;
+    
 
 }
 button:hover{
@@ -68,6 +83,19 @@ button:hover{
     -moz-transform: scale(1.5);
     transition: all 200ms ease-in;
     transform: scale(1.02);
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    margin: 15px;
+   
+
+    
+}
+.btn4{
+    margin-left: 180%;
 }
 
 }
