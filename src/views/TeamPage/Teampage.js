@@ -45,7 +45,7 @@ function TeamPage() {
                 <div className="timeline">
                   <ul>
                     <li>
-                      <Link to="/2019"> <Button className="timeline_btn">2019</Button> </Link>
+                      <Link to="/2020"> <Button className="timeline_btn">2020</Button> </Link>
                     </li>
 
                 
@@ -56,7 +56,7 @@ function TeamPage() {
                   </ul>
                 </div>
                 <Switch>
-                  <Route path="/2019">
+                  <Route path="/2020">
                     <Team2019 />
                   </Route>
 
