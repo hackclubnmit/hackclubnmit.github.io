@@ -7,7 +7,7 @@ import {
   Aboutpage,
   Eventspage,
   Gallertpage,
-  EventsHome,
+  // EventsHome,
 } from "./views";
 import Navbar from "./components/Navbars/Navbars";
 import "./index.css";
@@ -22,7 +22,7 @@ const Home = () => {
     <Fragment>
       <Homepage />
       <Aboutpage />
-      <EventsHome />
+      {/* <EventsHome /> */}
       <Gallertpage />
     </Fragment>
   );

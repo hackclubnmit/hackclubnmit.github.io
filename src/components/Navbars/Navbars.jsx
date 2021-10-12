@@ -29,7 +29,7 @@ const Navbars = () => {
               <NavLink href="/events">Events</NavLink>
             </NavItem>
             <NavItem className="navbar_link">
-              <NavLink href="/components/">Gallery</NavLink>
+              <NavLink href="/gallery">Gallery</NavLink>
             </NavItem>
             <NavItem className="navbar_link">
               <NavLink href="/team/">Teams</NavLink>

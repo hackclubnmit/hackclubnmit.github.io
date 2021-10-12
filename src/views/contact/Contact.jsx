@@ -10,11 +10,11 @@ const Contact=() =>{
         <Container>
             <div className="contact_box">
                <h1>CONTACT US</h1>
-               <p className="contact_box__add"> Drop us a mail or join Our Discord Channel</p>
+               <p className="contact_box__add"> Drop us a mail or join Our Discord</p>
                <div className="links">  
                 
                 <Row>
-                     <button className="button btn"> <i class="fas fa-envelope fa-2x"></i> <a href="mailto:hackclubnmit@gmail.com">Email us</a></button>
+                    <button className="button btn"> <i class="fas fa-envelope fa-2x fab"></i> <a href="mailto:hackclubnmit@gmail.com">Email us</a></button>
                     <button className="button btn"><i class="fab fa-telegram fa-2x"></i><a href="https://t.me/hackclubnmit">Telegram</a></button> 
                     <button className="button btn"><i class="fab fa-discord fa-2x"></i><a href="https://discord.com/invite/6ntVVANt"> Discord </a></button>
                 </Row>

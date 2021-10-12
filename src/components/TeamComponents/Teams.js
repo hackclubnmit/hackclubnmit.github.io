@@ -16,9 +16,9 @@ export  function Team2019() {
       <div className="team_card_div">
           
           <Card className="team_Card">
-          <CardImg width="10%" src={require(`../../assets/teamPic/satvik.jpg`)} alt="club lead Img" />
+          <CardImg width="10%" src={require(`../../assets/teamPic/rudransh.jpg`)} alt="club lead Img" />
             <CardBody className="cardBody">
-              <CardTitle className="cardTitle">Satvik</CardTitle>
+              <CardTitle className="cardTitle">Rudransh</CardTitle>
               <CardSubtitle className="cardSubTitle">Lead</CardSubtitle>
 
             </CardBody>
@@ -115,7 +115,7 @@ export  function Team2019() {
         </div>
       </Row>
 
-      <div className="div-title"><h1>Ground Operations Team</h1></div>
+      <div className="div-title"><h1>Sponsorship & Ground Operations Team</h1></div>
       <Row>
         <div className="team_card_div">
           

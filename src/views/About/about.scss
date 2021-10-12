@@ -1,52 +1,62 @@
 .about {
-  background-color: #17171d;
-  height: 100% !important;
-  color: rgb(255, 255, 255);
-  padding-top: 20px;
-
-  &-container {
-    justify-content: center !important;
-  }
-  &-div {
-    height: 100px;
-    text-align: center;
-  }
-
-  h1 {
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  &-sub {
-    text-align: center;
-    margin: 10px 0 20px 0;
-  }
-
-  &-con {
-    &-row {
-      margin-top: 10px;
-      background: #17171d;
+    background-color: #17171d;
+    height: 100% !important;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    &-container {
+        justify-content: center !important;
     }
+    &-div {
+        height: 100px;
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+    &-sub {
+        text-align: center;
+        margin: 10px 0 20px 0;
+    }
+    &-con {
+        &-row {
+            margin-top: 10px;
+            background: #17171d;
+        }
+        &-right {
+            img {
+                width: 550px;
+                margin: 7%;
+            }
+            &-card {
+                padding: 8px;
+                margin-bottom: 24px;
+                color: rgb(24, 26, 27);
+                background-color: rgb(37, 36, 41);
+            }
+        }
+        &-left {
+            &-card {
+                padding: 8px;
+                margin-bottom: 24px;
+                color: rgb(218, 207, 207);
+                background-color: rgb(37, 36, 41)!important;
+            }
+        }
+    }
+}
 
-    &-right {
-      img {
-        width: 550px;
-        margin: 10px;
-      }
-      &-card {
-        padding: 8px;
-        margin-bottom: 24px;
-        color: rgb(218, 207, 207);
-        background-color: rgb(37, 36, 41);
-      }
+.termblink,
+.line_one {
+    display: inline;
+}
+
+.termblink {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
     }
-    &-left {
-      &-card {
-        padding: 8px;
-        margin-bottom: 24px;
-        color: rgb(218, 207, 207);
-        background-color: rgb(37, 36, 41);
-      }
-    }
-  }
 }

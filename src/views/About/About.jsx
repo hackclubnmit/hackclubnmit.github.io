@@ -3,12 +3,12 @@ import "./about.scss";
 import { Card, CardText, CardBody, Row, Col, Container } from "reactstrap";
 export default function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <Container className="about-container">
-        <h1>A full-stack toolkit for organizing anything.</h1>
+        <h1><div className="line_one"><div className="termblink">></div> Hack Club NMIT is the official student chapter </div>of the Hack Club network</h1>
         <p className="about-sub">
-          Invoice sponsors, issue debit cards to your team, and view history.
-          Ongoing support so you can focus on organizing, not the paperwork.
+        <div>We conduct regular workshops and webinars, which are self led learn-to-code tutorials. In a nutshell,</div>
+        we are the movement of students building the classes we wish we could take!
         </p>
         {/* description */}
         {/* end */}
@@ -18,24 +18,22 @@ export default function About() {
               <Card className="about-con-left-card">
                 <CardBody>
                   <CardText>
-                    Do aliquip mollit sit esse veniam. Enim esse et ad veniam
-                    culpa qui. Nulla mollit aliquip sit culpa.
+                  The goal of Hack Club is to help you become a hacker. Being entirely student led, this provides you the space to learn and grow with the community.
                   </CardText>
                 </CardBody>
               </Card>
               <Card className="about-con-left-card">
                 <CardBody>
                   <CardText>
-                    Do aliquip mollit sit esse veniam. Enim esse et ad veniam
-                    culpa qui. Nulla mollit aliquip sit culpa.
+                  Learning to code is like gaining a superpower, converting  you from a consumer of technology to a creator. Suddenly, computers become a tool for creating and resolving problems.
+
                   </CardText>
                 </CardBody>
               </Card>
               <Card className="about-con-left-card">
                 <CardBody>
                   <CardText>
-                    Do aliquip mollit sit esse veniam. Enim esse et ad veniam
-                    culpa qui. Nulla mollit aliquip sit culpa.
+                  There’s never been a better time for making: anywhere in the world, anyone with a laptop and an internet connection can learn to make an app. Building things has never been so globally democratized
                   </CardText>
                 </CardBody>
               </Card>
@@ -53,8 +51,7 @@ export default function About() {
                   <Card className="about-con-left-card">
                     <CardBody>
                       <CardText>
-                        Do aliquip mollit sit esse veniam. Enim esse et ad
-                        veniam culpa qui. Nulla mollit aliquip sit culpa.
+                      Being well versed in programming concepts is inadequate if you do not know how to write real code. You learn as you build. Starting out, you won’t understand how the code works, but you’ll build understanding as you go
                       </CardText>
                     </CardBody>
                   </Card>
@@ -63,8 +60,7 @@ export default function About() {
                   <Card className="about-con-left-card">
                     <CardBody>
                       <CardText>
-                        Do aliquip mollit sit esse veniam. Enim esse et ad
-                        veniam culpa qui. Nulla mollit aliquip sit culpa.
+                      This is a community of young makers spanning across a broad spectrum. We create. We learn from creations. We help one another and have fun while at it. So hop aboard and become a part of the community!
                       </CardText>
                     </CardBody>
                   </Card>
