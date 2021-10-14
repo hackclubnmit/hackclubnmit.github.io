@@ -15,7 +15,7 @@ export const team2021_tec = [{
         id: '3',
         team: 'tech team ',
         name: 'Kalyan',
-        photo: 'boy.jpg',
+        photo: 'guy.jpg',
     },
 
     {
@@ -61,7 +61,7 @@ export const team2021_des = [{
         id: '6',
         team: 'des team ',
         name: 'Aman Shukla',
-        photo: 'boy.jpg',
+        photo: 'guy.jpg',
     },
 ];
 
@@ -83,7 +83,7 @@ export const team2021_pr = [
         id: '3',
         team: 'pr team ',
         name: 'Shubam',
-        photo: 'boy.jpg',
+        photo: 'guy.jpg',
     },
     {
         id: '4',
@@ -98,7 +98,7 @@ export const team2021_op = [{
         id: '1',
         team: 'op team ',
         name: 'Ashutosh ',
-        photo: 'boy.jpg',
+        photo: 'guy.jpg',
     },
     {
         id: '2',
@@ -110,7 +110,7 @@ export const team2021_op = [{
         id: '3',
         team: 'op team ',
         name: 'Tejas',
-        photo: 'boy.jpg',
+        photo: 'guy.jpg',
     },
     {
         id: '4',
@@ -212,7 +212,7 @@ export const team2019_tec = [
         id: '3',
         team: 'tech team ',
         name: 'Kaushal',
-        photo: 'boy.jpg',
+        photo: 'guy.jpg',
     },
 
 ];
@@ -235,7 +235,7 @@ export const team2019_des = [
         id: '3',
         team: 'Design team ',
         name: 'Sayantan',
-        photo: 'boy.jpg',
+        photo: 'guy.jpg',
     },
     {
         id: '4',
@@ -281,7 +281,7 @@ export const team2019_op = [
         id: '3',
         team: 'op team ',
         name: 'Madan ',
-        photo: 'boy.jpg',
+        photo: 'guy.jpg',
     },
 
 ];
@@ -305,6 +305,6 @@ export const team2019_gop = [
         id: '2',
         team: 'sponsorship team ',
         name: 'Akash ',
-        photo: 'boy.jpg',
+        photo: 'guy.jpg',
     }
 ];

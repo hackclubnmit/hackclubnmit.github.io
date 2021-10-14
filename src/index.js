@@ -37,7 +37,11 @@ ReactDOM.render(
       {/*<Route exact path="/donate" component={Donate} />*/}
       <Route exact path="/team" component={TeamPage} />
       <Route exact path="/events" component={Eventspage} />
+<<<<<<< HEAD
       <Route exact path="/gallery" component={Gallertpage} />
+=======
+      <Route exact path="/Gallery" component={Gallertpage} />
+>>>>>>> 9c5c730e239e1bfff6b45caf573f9888ce9ba0af
       <Route exact path="/contact" component={Contact} />
     </Switch>
     <Footer />
