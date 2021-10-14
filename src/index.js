@@ -36,6 +36,7 @@ ReactDOM.render(
       {/*<Route exact path="/donate" component={Donate} />*/}
       <Route exact path="/team" component={TeamPage} />
       <Route exact path="/events" component={Eventspage} />
+      <Route exact path="/Gallery" component={Gallertpage} />
       <Route exact path="/contact" component={Contact} />
     </Switch>
     <Footer />

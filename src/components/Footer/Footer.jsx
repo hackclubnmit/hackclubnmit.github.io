@@ -18,10 +18,7 @@ function Footer() {
           <div className="sec aboutus">
             <h2> About us</h2>
             <p>
-              Adipisicing culpa ipsum id sunt pariatur ipsum. Est minim enim
-              duis elit id voluptate commodo voluptate eiusmod id quis cillum.
-              Laborum anim eu laboris pariatur labore do laborum aliqua laboris
-              reprehenderit nulla nisi.{" "}
+            Hack club NMIT is a non-profit organization which is entirely student led. This is a place for makers who come together to create an inclusive environment and community that strives continuously to learn,build and create.
             </p>
             <ul className="sci p-0">
               <li>
@@ -96,9 +93,9 @@ function Footer() {
                   <i className="" aria-hidden="true"></i>
                 </span>
                 <p>
-                  <a href="tel: 1234567890">1234567890</a>
+                  <a href="tel: 080 2216 7842">080 2216 7842</a>
                   <br />
-                  <a href="tel: 1234567890">1234567890</a>
+                  <a href="tel: 94485 07073">94485 07073</a>
                 </p>
               </li>
               <li>
