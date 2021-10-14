@@ -29,8 +29,7 @@ function TeamPage() {
               <CardTitle className="cardTitle">Anurag Singh</CardTitle>              </CardBody>
             </Card>
            
-            </div>
-            <div className="card-div">
+           
             <Card className="Card-founder">
               <CardImg width="10%" src={rachetmudnur} alt="founder Img" />
               <CardBody className="cardBody">

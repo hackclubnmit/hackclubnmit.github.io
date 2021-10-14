@@ -17,7 +17,7 @@ const Contact=() =>{
                      <a href="mailto:hackclubnmit@gmail.com"><button className="button btn"> <i class="fas fa-envelope fa-2x fab"></i> Email us</button> </a>
                     <a href="https://t.me/hackclubnmit"><button className="button btn"><i class="fab fa-telegram fa-2x"></i>Telegram</button></a> 
                     <a href="https://discord.com/invite/6ntVVANt"><button className="button btn"><i class="fab fa-discord fa-2x"></i> Discord </button> </a>
-                    <a href="https://linktr.ee/hackclubnmit">  <button className=" button btn"> linktree</button></a>
+                    <a href="https://linktr.ee/hackclubnmit">  <button className=" button btn"> linktr.ee</button></a>
                 </Row>
                 <Row>
                    

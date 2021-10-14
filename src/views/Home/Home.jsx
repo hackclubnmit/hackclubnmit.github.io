@@ -1,7 +1,7 @@
 import React,{ useState,useEffect } from "react";
 import "./home.scss";
 import { Container, Button } from "reactstrap";
-
+import {Link} from 'react-scroll'
 const Home = () => {
   const [show, setshow] = useState(false)
   const controlbutton = () =>{
@@ -27,7 +27,7 @@ const Home = () => {
           We are the movement of students orchestrating the classes we wish we could take.
           </p>
           <Button className="btn">Apply Now</Button>
-          <div onClick="" className={`hold_scroll ${show && 'hide'}`}><div className="home_container__arrow" /></div>
+          <Link activeClass="active"  spy={true}  to = "about" smooth={false}> <div onClick="" className={`hold_scroll ${show && 'hide'}`}><div className="home_container__arrow" /></div> </Link>
         </Container>
 
       </div>

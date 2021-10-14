@@ -70,6 +70,8 @@
 }
 .cardBody{
   // border: 3px solid green;
+  color: #000000;
+  
   margin: 1rem;
   text-align: center;
   font-size: 3rem;
@@ -80,7 +82,7 @@
 
 .cardTitle {
   font-size: 1.6rem;
-  font-weight: 450;
+  font-weight: 600;
   margin-top: 10px;
   margin-bottom: 5px;
 }
@@ -111,7 +113,7 @@
   
   }
   &_btn{
-  font-size: 28px;
+  font-size: 40px;
   display: inline-block;
   background: #2a2a36 ;
   box-shadow: 0 14px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
