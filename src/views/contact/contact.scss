@@ -44,7 +44,7 @@
             }
         }
         a {
-            font-weight: 600;
+            font-weight: 700;
             color: black;
             text-decoration: none;
             text-align: center;
@@ -53,9 +53,12 @@
             color: white;
         }
         button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 35rem;
             background: white;
-            padding: 10px;
-            margin: 5px;
+            padding: 12px;            
             text-align: center;
             display: inline-block;
             text-transform: uppercase;
@@ -82,8 +85,7 @@
             justify-content: center;
             border-radius: 16px;
             margin: 15px;
+            margin-left: 40px;
         }
-        .btn4 {
-            margin-left: 180%;
-        }
+        
     }

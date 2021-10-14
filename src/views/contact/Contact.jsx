@@ -14,12 +14,13 @@ const Contact=() =>{
                <div className="links">  
                 
                 <Row>
-                    <button className="button btn"> <i class="fas fa-envelope fa-2x fab"></i> <a href="mailto:hackclubnmit@gmail.com">Email us</a></button>
-                    <button className="button btn"><i class="fab fa-telegram fa-2x"></i><a href="https://t.me/hackclubnmit">Telegram</a></button> 
-                    <button className="button btn"><i class="fab fa-discord fa-2x"></i><a href="https://discord.com/invite/6ntVVANt"> Discord </a></button>
+                     <a href="mailto:hackclubnmit@gmail.com"><button className="button btn"> <i class="fas fa-envelope fa-2x fab"></i> Email us</button> </a>
+                    <a href="https://t.me/hackclubnmit"><button className="button btn"><i class="fab fa-telegram fa-2x"></i>Telegram</button></a> 
+                    <a href="https://discord.com/invite/6ntVVANt"><button className="button btn"><i class="fab fa-discord fa-2x"></i> Discord </button> </a>
+                    <a href="https://linktr.ee/hackclubnmit">  <button className=" button btn"> linktree</button></a>
                 </Row>
                 <Row>
-                    <div className="btn-4"> <button className=" button btn btn4"> <a href="https://linktr.ee/hackclubnmit">linktree</a></button></div>
+                   
                 </Row>
 
                </div>

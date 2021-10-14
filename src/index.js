@@ -12,6 +12,7 @@ import {
 import Navbar from "./components/Navbars/Navbars";
 import "./index.css";
 import Footer from "./components/Footer/Footer";
+
 //import Donate from "./views/Donate/Donate";
 import TeamPage from "./views/TeamPage/Teampage";
 import Contact from "./views/contact/Contact";
@@ -36,6 +37,7 @@ ReactDOM.render(
       {/*<Route exact path="/donate" component={Donate} />*/}
       <Route exact path="/team" component={TeamPage} />
       <Route exact path="/events" component={Eventspage} />
+      <Route exact path="/gallery" component={Gallertpage} />
       <Route exact path="/contact" component={Contact} />
     </Switch>
     <Footer />

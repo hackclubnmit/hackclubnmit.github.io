@@ -1,11 +1,12 @@
 import React from "react";
 import "./about.scss";
 import { Card, CardText, CardBody, Row, Col, Container } from "reactstrap";
+
 export default function About() {
   return (
     <div className="about" id="about">
       <Container className="about-container">
-        <h1><div className="line_one"><div className="termblink">></div> Hack Club NMIT is the official student chapter </div>of the Hack Club network</h1>
+        <h1><div className="line_one"><div className="termblink"></div> Hack Club NMIT is the official student chapter </div>of the Hack Club network</h1>
         <p className="about-sub">
         <div>We conduct regular workshops and webinars, which are self led learn-to-code tutorials. In a nutshell,</div>
         we are the movement of students building the classes we wish we could take!
@@ -41,7 +42,7 @@ export default function About() {
             <Col lg="8" className="about-con-right">
               <a href="# ">
                 <img
-                  src="https://hackclub.com/bank/laptop-light.png"
+                  src={require(`../../assets/logo/laptop.png`)}
                   alt="about-laptop"
                   className=""
                 />
