@@ -26,7 +26,7 @@ const Home = () => {
           
           We are the movement of students orchestrating the classes we wish we could take.
           </p>
-          <Button className="btn">Apply Now</Button>
+          <a href="/contact"><Button className="btn">Apply Now</Button></a>
           <Link activeClass="active"  spy={true}  to = "about" smooth={false}> <div onClick="" className={`hold_scroll ${show && 'hide'}`}><div className="home_container__arrow" /></div> </Link>
         </Container>
 

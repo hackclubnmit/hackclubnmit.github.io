@@ -23,26 +23,26 @@ function Footer() {
             <ul className="sci p-0">
               <li>
                 {" "}
-                <a href="# ">
+                <a href="https://github.com/hackclubnmit">
                   <GrGithub />
                 </a>
               </li>
               <li>
                 {" "}
-                <a href="# ">
+                <a href="https://twitter.com/HackClubNmit">
                   <GrTwitter />
                 </a>
               </li>
               <li>
                 {" "}
-                <a href="# ">
+                <a href="https://www.youtube.com/channel/UCMcJ0_61s_G1UvPbVPs2edw">
                   {" "}
                   <GrYoutube />
                 </a>
               </li>
               <li>
                 {" "}
-                <a href="# ">
+                <a href="https://www.linkedin.com/company/hackclubnmit/">
                   <GrLinkedinOption />
                 </a>
               </li>
@@ -59,10 +59,10 @@ function Footer() {
                 <a href="# ">About</a>
               </li>
               <li>
-                <a href="# "> Events</a>
+                <a href="/events"> Events</a>
               </li>
               <li>
-                <a href="# "> Gallery</a>
+                <a href="/gallery"> Gallery</a>
               </li>
               <li>
                 <a href="# ">Sponsors</a>
@@ -86,7 +86,8 @@ function Footer() {
                 <span>
                   <i className="" aria-hidden="true"></i>
                 </span>
-                <span>NMIT BANGALORE</span>
+                <span>Nitte Meenakshi Institute of Technology
+                </span>
               </li>
               <li>
                 <span>
@@ -103,8 +104,8 @@ function Footer() {
                   <i className="" aria-hidden="true"></i>
                 </span>
                 <p>
-                  <a href="mailto:hackclubnmit@nmit.ac.in">
-                    hackclubnmit@nmit.ac.in
+                  <a href="mailto:hackclub@nmit.ac.in">
+                  hackclub@nmit.ac.in
                   </a>
                 </p>
               </li>
