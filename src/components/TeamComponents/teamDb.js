@@ -63,6 +63,12 @@ export const team2021_des = [{
         name: 'Aman Shukla',
         photo: 'guy.jpg',
     },
+    {
+        id: '7',
+        team: 'Design team ',
+        name: 'Hrishikesh Karnik',
+        photo: 'guy.jpg',
+    }
 ];
 
 export const team2021_pr = [
