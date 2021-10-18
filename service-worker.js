@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hackclub-nmit-website/precache-manifest.20a0757a459d0cdd7d2df52cbd0239f7.js"
+  "/hackclub-nmit-website/precache-manifest.3248b5a6c22f1fc6bdbbb511d7bf7d29.js"
 );
 
 self.addEventListener('message', (event) => {

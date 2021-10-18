@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hackclub-nmit-website/static/css/main.33cf8cc6.chunk.css",
-    "main.js": "/hackclub-nmit-website/static/js/main.29dd583e.chunk.js",
-    "main.js.map": "/hackclub-nmit-website/static/js/main.29dd583e.chunk.js.map",
+    "main.css": "/hackclub-nmit-website/static/css/main.ece03eb4.chunk.css",
+    "main.js": "/hackclub-nmit-website/static/js/main.d2d8b8fa.chunk.js",
+    "main.js.map": "/hackclub-nmit-website/static/js/main.d2d8b8fa.chunk.js.map",
     "runtime-main.js": "/hackclub-nmit-website/static/js/runtime-main.33fea020.js",
     "runtime-main.js.map": "/hackclub-nmit-website/static/js/runtime-main.33fea020.js.map",
     "static/css/2.d04d9807.chunk.css": "/hackclub-nmit-website/static/css/2.d04d9807.chunk.css",
-    "static/js/2.506d4572.chunk.js": "/hackclub-nmit-website/static/js/2.506d4572.chunk.js",
-    "static/js/2.506d4572.chunk.js.map": "/hackclub-nmit-website/static/js/2.506d4572.chunk.js.map",
+    "static/js/2.99966138.chunk.js": "/hackclub-nmit-website/static/js/2.99966138.chunk.js",
+    "static/js/2.99966138.chunk.js.map": "/hackclub-nmit-website/static/js/2.99966138.chunk.js.map",
     "index.html": "/hackclub-nmit-website/index.html",
-    "precache-manifest.20a0757a459d0cdd7d2df52cbd0239f7.js": "/hackclub-nmit-website/precache-manifest.20a0757a459d0cdd7d2df52cbd0239f7.js",
+    "precache-manifest.3248b5a6c22f1fc6bdbbb511d7bf7d29.js": "/hackclub-nmit-website/precache-manifest.3248b5a6c22f1fc6bdbbb511d7bf7d29.js",
     "service-worker.js": "/hackclub-nmit-website/service-worker.js",
     "static/css/2.d04d9807.chunk.css.map": "/hackclub-nmit-website/static/css/2.d04d9807.chunk.css.map",
-    "static/css/main.33cf8cc6.chunk.css.map": "/hackclub-nmit-website/static/css/main.33cf8cc6.chunk.css.map",
-    "static/js/2.506d4572.chunk.js.LICENSE.txt": "/hackclub-nmit-website/static/js/2.506d4572.chunk.js.LICENSE.txt",
+    "static/css/main.ece03eb4.chunk.css.map": "/hackclub-nmit-website/static/css/main.ece03eb4.chunk.css.map",
+    "static/js/2.99966138.chunk.js.LICENSE.txt": "/hackclub-nmit-website/static/js/2.99966138.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/hackclub-nmit-website/static/media/1.3ef0014d.jpg",
     "static/media/aastha.jpg": "/hackclub-nmit-website/static/media/aastha.b8521bf0.jpg",
     "static/media/abhishekkedia.jpg": "/hackclub-nmit-website/static/media/abhishekkedia.f290c0a6.jpg",
@@ -55,8 +55,8 @@
   "entrypoints": [
     "static/js/runtime-main.33fea020.js",
     "static/css/2.d04d9807.chunk.css",
-    "static/js/2.506d4572.chunk.js",
-    "static/css/main.33cf8cc6.chunk.css",
-    "static/js/main.29dd583e.chunk.js"
+    "static/js/2.99966138.chunk.js",
+    "static/css/main.ece03eb4.chunk.css",
+    "static/js/main.d2d8b8fa.chunk.js"
   ]
 }
