@@ -112,14 +112,14 @@
     }
   
   }
-  &_btn{
-  font-size: 40px;
+  button{
+  font-size: 28px;
   display: inline-block;
   background: #2a2a36 ;
   box-shadow: 0 14px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
   
-&_btn:hover{
+button:hover{
   background: rgba(7, 16, 48, 0.774);
   color: white;
   box-shadow: 0px 0px 20px #000000;
