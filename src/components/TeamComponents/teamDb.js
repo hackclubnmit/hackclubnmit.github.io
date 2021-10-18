@@ -88,7 +88,7 @@ export const team2021_pr = [
     {
         id: '3',
         team: 'pr team ',
-        name: 'Shubam',
+        name: 'Shubham Prasad',
         photo: 'guy.jpg',
     },
     {
