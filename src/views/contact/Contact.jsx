@@ -2,10 +2,10 @@ import React from 'react';
 import "./contact.scss";
 import { Container ,Row} from 'reactstrap';
 
+
 const Contact=() =>{
     return(
     <div>
-
     <div className="contact_div">
         <Container>
             <div className="contact_box">

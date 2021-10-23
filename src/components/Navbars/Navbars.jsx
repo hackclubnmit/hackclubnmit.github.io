@@ -26,10 +26,10 @@ const Navbars = () => {
               <NavLink href="/">Home</NavLink>
             </NavItem>
             <NavItem className="navbar_link">
-              <NavLink href="/events">Events</NavLink>
+              <NavLink href="/events/">Events</NavLink>
             </NavItem>
             <NavItem className="navbar_link">
-              <NavLink href="/gallery">Gallery</NavLink>
+              <NavLink href="/gallery/">Gallery</NavLink>
             </NavItem>
             <NavItem className="navbar_link">
               <NavLink href="/team/">Teams</NavLink>
@@ -43,7 +43,7 @@ const Navbars = () => {
               <NavLink href="/donate">Donate</NavLink>
                 </NavItem>*/}
             <NavItem className="navbar_link">
-              <NavLink href="/contact">Contact</NavLink>
+              <NavLink href="/contact/">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
