@@ -6,8 +6,8 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
 } from "reactstrap";
+import { Link } from "react-router-dom";
 import "./navbar.scss";
 //import logo from "../../assets/logo/logo.png";
 
@@ -23,27 +23,27 @@ const Navbars = () => {
         <Collapse isOpen={isOpen} className="navbar_item" navbar>
           <Nav navbar>
             <NavItem className="navbar_link">
-              <NavLink href="/">Home</NavLink>
+              <Link to="/">Home</Link>
             </NavItem>
             <NavItem className="navbar_link">
-              <NavLink href="/events/">Events</NavLink>
+              <Link to="/events/">Events</Link>
             </NavItem>
             <NavItem className="navbar_link">
-              <NavLink href="/gallery/">Gallery</NavLink>
+              <Link to="/gallery/">Gallery</Link>
             </NavItem>
             <NavItem className="navbar_link">
-              <NavLink href="/team/">Teams</NavLink>
+              <Link to="/team/">Teams</Link>
             </NavItem>
             {/*<NavItem className="navbar_link">
-              <NavLink href="https://github.com/hackclubnmit">
+              <Link to="https://github.com/hackclubnmit">
                 GitHub
-              </NavLink>
+              </Link>
   </NavItem>*/}
             {/* <NavItem className="navbar_link">
-              <NavLink href="/donate">Donate</NavLink>
+              <Link href="/donate">Donate</Link>
                 </NavItem>*/}
             <NavItem className="navbar_link">
-              <NavLink href="/contact/">Contact</NavLink>
+              <Link to="/contact/">Contact</Link>
             </NavItem>
           </Nav>
         </Collapse>

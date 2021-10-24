@@ -9,6 +9,7 @@ import {
 } from "react-icons/gr";
 
 import { AiFillHeart } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -18,7 +19,7 @@ function Footer() {
           <div className="sec aboutus">
             <h2> About us</h2>
             <p>
-            Hack club NMIT is a non-profit organization which is entirely student led. This is a place for makers who come together to create an inclusive environment and community that strives continuously to learn,build and create.
+              Hack club NMIT is a non-profit organization which is entirely student led. This is a place for makers who come together to create an inclusive environment and community that strives continuously to learn,build and create.
             </p>
             <ul className="sci p-0">
               <li>
@@ -53,28 +54,28 @@ function Footer() {
             <h2> Useful Links </h2>
             <ul className="quicklinks_links p-0">
               <li>
-                <a href="/ ">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="# ">About</a>
+                <Link to="#">About</Link>
               </li>
               <li>
-                <a href="/events"> Events</a>
+                <Link to="/events"> Events</Link>
               </li>
               <li>
-                <a href="/gallery"> Gallery</a>
+                <Link to="/gallery"> Gallery</Link>
               </li>
               <li>
-                <a href="# ">Sponsors</a>
+                <Link to="#">Sponsors</Link>
               </li>
               <li>
-                <a href="/team ">Meet The Team</a>
+                <Link to="/team">Meet The Team</Link>
               </li>
               <li>
-                <a href="# ">Register</a>
+                <Link to="# ">Register</Link>
               </li>
               <li>
-                <a href="/donate">Dontate</a>
+                <Link to="/donate">Dontate</Link>
               </li>
             </ul>
           </div>
@@ -105,7 +106,7 @@ function Footer() {
                 </span>
                 <p>
                   <a href="mailto:hackclub@nmit.ac.in">
-                  hackclub@nmit.ac.in
+                    hackclub@nmit.ac.in
                   </a>
                 </p>
               </li>
