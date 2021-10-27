@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6c4b1ccd1cf4e3843e075920eaecfdc",
+    "revision": "f79443da41e0cc35dd53db6443cf5e80",
     "url": "/hackclub-nmit-website/index.html"
   },
   {
-    "revision": "ad3ca58c732a0cca1549",
+    "revision": "4a9bd9fcbcc6ca1df010",
     "url": "/hackclub-nmit-website/static/css/2.d04d9807.chunk.css"
   },
   {
-    "revision": "a62ebbb48717e7c424bd",
-    "url": "/hackclub-nmit-website/static/css/main.ece03eb4.chunk.css"
+    "revision": "e439f6aa3d1478dc7205",
+    "url": "/hackclub-nmit-website/static/css/main.3555d32d.chunk.css"
   },
   {
-    "revision": "ad3ca58c732a0cca1549",
-    "url": "/hackclub-nmit-website/static/js/2.99966138.chunk.js"
+    "revision": "4a9bd9fcbcc6ca1df010",
+    "url": "/hackclub-nmit-website/static/js/2.e1fd18ed.chunk.js"
   },
   {
     "revision": "9efecc6e366a89e935d3722c67df4853",
-    "url": "/hackclub-nmit-website/static/js/2.99966138.chunk.js.LICENSE.txt"
+    "url": "/hackclub-nmit-website/static/js/2.e1fd18ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a62ebbb48717e7c424bd",
-    "url": "/hackclub-nmit-website/static/js/main.d2d8b8fa.chunk.js"
+    "revision": "e439f6aa3d1478dc7205",
+    "url": "/hackclub-nmit-website/static/js/main.00c0145f.chunk.js"
   },
   {
     "revision": "d7962d5f02486862ba16",
