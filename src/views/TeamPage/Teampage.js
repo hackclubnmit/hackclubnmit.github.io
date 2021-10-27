@@ -44,22 +44,22 @@ function TeamPage() {
                 <div className="timeline">
                   <ul>
                     <li>
-                      <Link to="/2020"> <Button className="timeline_btn">2020</Button> </Link>
+                      <Link to="/#2020"> <Button className="timeline_btn">2020</Button> </Link>
                     </li>
 
                 
 
                     <li>
-                      <Link to="/2021"> <Button className="timeline_btn">2021</Button> </Link>
+                      <Link to="/#2021"> <Button className="timeline_btn">2021</Button> </Link>
                     </li>
                   </ul>
                 </div>
                 <Switch>
-                  <Route path="/2020">
+                  <Route path="/#2020">
                     <Team2019 />
                   </Route>
 
-                  <Route path="/2021">
+                  <Route path="/#2021">
                     <Team2021 />
                   </Route>
                 </Switch>
